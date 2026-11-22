@@ -12,3 +12,4 @@ player*.log
 installer/fs_installer/target/
 installer/dist/
 installer/source_ui.png
+installer/fs_installer/selftest.txt

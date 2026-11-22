@@ -409,6 +409,7 @@ impl App {
     }
 
     fn draw(&mut self, dc: HDC, w: i32, h: i32) {
+        self.buttons.clear();
         unsafe {
             SetBkMode(dc, TRANSPARENT);
             fill(dc, 0, 0, w, h, theme::BG);
