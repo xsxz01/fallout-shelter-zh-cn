@@ -1,0 +1,24 @@
+{
+ "terms": 14073,
+ "changed": 14038,
+ "missing": [],
+ "fonts": [
+  "FuturaStd-CondensedBoldObl",
+  "FuturaStd-CondensedBold",
+  "monofonto",
+  "AIRSTREA",
+  "FontdinerSwanky",
+  "JennaSue",
+  "Boogaloo-Regular"
+ ],
+ "font_data": "simhei_fixed.ttf",
+ "custom_fonts": "cleared",
+ "overrides": 201,
+ "unused_overrides": [],
+ "bundle_bytes": 494357268,
+ "seconds": 49.5,
+ "md5": "aeb2e63b1d905451f501b5814eb94c09",
+ "language_slot": "English (content Chinese)",
+ "font": "SimHei subset (stripped tables, GB2312 + translations)",
+ "verified_in_game": "欢迎来到 renders on title screen (rebuilt patch)"
+}

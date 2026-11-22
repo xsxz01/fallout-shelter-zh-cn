@@ -1,0 +1,11 @@
+GameBackup_2.7.0_original/
+patch_data.unity3d
+汉化补丁/
+dist/
+__pycache__/
+*.pyc
+*.log
+*.png
+simhei_fixed.ttf
+simhei_stripped.ttf
+player*.log
