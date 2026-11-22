@@ -27,8 +27,8 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("辐射：避难所 汉化编辑器")
-        self.geometry("1280x800")
-        self.minsize(1000, 640)
+        self.geometry("1500x900")
+        self.minsize(1100, 700)
         self.option_add("*Font", FONT)
         self.rows, self.counts = loc_core.build_rows()
         self.overrides = loc_core.load_json(loc_core.OVERRIDES, {})
@@ -236,6 +236,7 @@ class App(tk.Tk):
             messagebox.showinfo("请稍候", "已有任务在执行")
             return
         self.busy = True
+        self.last_rc = None
         win = tk.Toplevel(self)
         win.title(title)
         win.geometry("900x480")
