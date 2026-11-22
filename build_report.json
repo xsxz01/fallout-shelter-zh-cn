@@ -18,5 +18,8 @@
   "Message_Tutorial_53_PC"
  ],
  "bundle_bytes": 494352851,
- "seconds": 51.0
+ "seconds": 51.0,
+ "md5": "f5dcdc160b6d36d1efa82bf832dd7880",
+ "version": "1.2.0",
+ "brace_fix": true
 }
