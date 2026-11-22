@@ -298,7 +298,9 @@ class App(tk.Tk):
             shutil.copyfile(PATCH_DATA, GAME_DATA)
             os.makedirs(PATCH_DIR, exist_ok=True)
             shutil.copyfile(PATCH_DATA, os.path.join(PATCH_DIR, "data.unity3d"))
-            self.status_var.set("补丁已构建并安装到游戏")
+            loc_core.export_csv()
+            shutil.copyfile(loc_core.LIST_CSV, os.path.join(PATCH_DIR, "翻译清单.csv"))
+            self.status_var.set("补丁已构建并安装到游戏，清单已更新")
         except Exception as e:
             messagebox.showerror("安装失败", str(e))
 

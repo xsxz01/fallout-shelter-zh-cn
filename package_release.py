@@ -47,6 +47,9 @@ def main():
     args = ap.parse_args()
     v = args.version
 
+    print("[0/4] 导出翻译清单 ...", flush=True)
+    subprocess.run([sys.executable, "export_list.py"], cwd=W, check=True)
+
     if not args.skip_build:
         print("[1/4] 构建 data.unity3d ...", flush=True)
         subprocess.run([sys.executable, "build_patch.py"], cwd=W, check=True)

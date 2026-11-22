@@ -1,5 +1,9 @@
 # Fallout Shelter 2.7.0 简体中文汉化
 
+[![Latest release](https://img.shields.io/github/v/release/xsxz01/fallout-shelter-zh-cn)](https://github.com/xsxz01/fallout-shelter-zh-cn/releases/latest)
+
+最新汉化包：<https://github.com/xsxz01/fallout-shelter-zh-cn/releases/latest>
+
 《辐射：避难所》2.7.0（Steam / Unity 6）简体中文汉化补丁的源码与工具。
 
 > 仅用于你合法拥有的游戏副本。游戏文本、字体与资源版权归 Bethesda Softworks / ZeniMax 所有。
