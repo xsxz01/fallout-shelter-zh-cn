@@ -85,6 +85,13 @@ python package_release.py --version 1.0.0
 | `verify_patch.py` | 回读校验补丁 |
 | `export_list.py` | 重新导出 CSV |
 
+## 花括号高亮文本
+
+游戏教程中的 `{BUILD}`、`{HAMMER ICON}` 不是本地化占位符，而是高亮颜色标记：
+`TutorialMessageItem.ConvertMessageColors()` 只替换 `{` / `}` 为颜色标签。
+翻译时应保留花括号并翻译内部文字，例如 `{建造}`、`{锤子图标}`；
+真正的格式占位符 `{0}`、`{1}` 和按键标记 `[A]`、`[RT]` 保持不变。
+
 ## 翻译优先级
 
 ```text

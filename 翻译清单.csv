@@ -2259,7 +2259,7 @@ The Barbershop works faster on Dwellers with high Charisma.","居民可以在理
 1104,Junk_Name_Ultracite,Ultracite,超钙石,机翻+术语处理
 1105,Junk_Name_Yarn,Yarn,纱,机翻+术语处理
 1106,KeyboardMapping_ActivateRoom,Room Action,房间行动,机翻+术语处理
-1107,KeyboardMapping_EnterVault,Enter Vault,输入避难所,机翻+术语处理
+1107,KeyboardMapping_EnterVault,Enter Vault,进入避难所,人工UI覆盖
 1108,KeyboardMapping_MoveCameraDown1,Down,向下,机翻+术语处理
 1109,KeyboardMapping_MoveCameraDown2,Down,向下,机翻+术语处理
 1110,KeyboardMapping_MoveCameraLeft1,Left,左边,机翻+术语处理
@@ -2380,12 +2380,12 @@ CAPS (32.6%)","稀有居民(20.0%)
 1173,LunchBox_DoYouWantToBuyOne,"You don't have any LunchBoxes, would you like to buy one?",您没有午餐盒，想买一个吗？,机翻+术语处理
 1174,LunchBox_NotEnoughNuka,You don't have enough CAPS,您没有足够的CAPS,机翻+术语处理
 1175,LunchBox_WindowTitle,Lunchboxes,午餐盒,机翻+术语处理
-1176,MainMenu_EnterVault,ENTER VAULT {0},输入避难所{0},机翻+术语处理
+1176,MainMenu_EnterVault,ENTER VAULT {0},进入避难所{0},人工UI覆盖
 1177,MainMenu_NoVault_Survival,We strongly recommend you play with a normal mode Vault to learn the game basics before trying the Survival Mode.,我们强烈建议您在尝试生存模式之前先玩普通模式避难所以了解游戏基础知识。,机翻+术语处理
 1178,MainMenu_Survival_Mode,Survival Mode,生存模式,机翻+术语处理
 1179,MainMenu_Survival_Mode_Confirm,"Vault-Tec Priority Alert! We have detected that you have opted into our most rigorous and hazardous social experiment yet – Survival Mode! In Survival Mode, your Vault will face deadlier threats, the need for resources will be greater, and you won't be able to revive dead Dwellers!",避难所科技优先警报！我们检测到您选择了我们迄今为止最严格、最危险的社会实验——生存模式！在生存模式下，你的避难所将面临更致命的威胁，对资源的需求也会更大，而且你将无法复活死去的居民！,机翻+术语处理
 1180,MainMenu_Survival_Mode_Confirm_Part02,"What's more, once you proceed along this course, there's no going back! As there's no time to perform a complete psychological evaluation, Vault-Tec will have to assume you're in complete control of your faculties, and fully understand the ramifications of this choice. Good luck, Overseer!",更重要的是，一旦你沿着这条路线前进，就不会再回头了！由于没有时间进行完整的心理评估，避难所科技必须假设你完全控制了自己的能力，并完全理解这一选择的后果。好幸运，监督者！,机翻+术语处理
-1181,MainMenu_TapToStart,ENTER VAULT {0},输入避难所{0},机翻+术语处理
+1181,MainMenu_TapToStart,ENTER VAULT {0},进入避难所{0},人工UI覆盖
 1182,MainMenu_WelcomeTo,WELCOME TO,欢迎来到,人工UI覆盖
 1183,MainMenu_Xbox_SignIn,Please sign in.,请登录。,机翻+术语处理
 1184,MainMenu_Xbox_SignInError,Unhandled sign-in event,未处理的登录事件,机翻+术语处理
@@ -2510,128 +2510,128 @@ Items can be redeemed at any time.","前往商店[ffff00]兑换[-]。
 1285,Message_ThemeReload,You must reload your Vault to apply the {0} Theme. Do you want to reload your Vault now?,您必须重新加载Vault才能应用{0}主题。您想现在重新加载您的保险库吗？,机翻+术语处理
 1286,Message_TooManyMrHandyInWasteland,You have already sent the maximum amount of Mr. Handys to the Wasteland,您已将最大数量的巧手先生发送到荒地,机翻+术语处理
 1287,Message_TrainingTimeSkipNukaQuantum,Train your Dweller instantly for {0} Nuka-Cola Quantum?,立即训练你的居民以获得{0}核子可乐量子？,机翻+术语处理
-1288,Message_Tutorial_01,"Welcome to your new Vault, {OVERSEER}. Let's introduce you to the basic concepts.",欢迎来到你的新避难所、{OVERSEER}。让我们向您介绍基本概念。,机翻+术语处理
-1289,Message_Tutorial_02,First let's {BUILD} a {ROOM}. Tap on the {HAMMER ICON} to open the {BUILD MENU}.,首先让我们{BUILD}一个{ROOM}。点击{HAMMER ICON}打开{BUILD MENU}。,机翻+术语处理
-1290,Message_Tutorial_02_PC,First let's {BUILD} a {ROOM}. Click on the {HAMMER ICON} to open the {BUILD MENU}.,首先让我们{BUILD}一个{ROOM}。单击{HAMMER ICON}打开{BUILD MENU}。,机翻+术语处理
-1291,Message_Tutorial_02_Xbox,First let's {BUILD} a {ROOM}. Press [Y] to open the {BUILD MENU}.,首先让我们{BUILD}和{ROOM}。按[Y]打开{BUILD MENU}。,机翻+术语处理
-1292,Message_Tutorial_03,We'll build a {POWER GENERATOR} that will produce {POWER}. {TAP} on the {POWER ROOM}.,我们将构建一个将生成{POWER}的{POWER GENERATOR}。{POWER ROOM}上的{TAP}。,机翻+术语处理
-1293,Message_Tutorial_03_PC,We'll build a {POWER GENERATOR} that will produce {POWER}. {CLICK} on the {POWER ROOM}.,我们将构建一个将生成{POWER}的{POWER GENERATOR}。{POWER ROOM}上的{CLICK}。,机翻+术语处理
-1294,Message_Tutorial_03_Xbox,We'll build a {POWER GENERATOR} that will produce {POWER}. Press [A] to {SELECT} the {POWER ROOM}.,我们将构建一个将生成{POWER}的{POWER GENERATOR}。按[A]到{SELECT}到{POWER ROOM}。,机翻+术语处理
-1295,Message_Tutorial_04,{BUILD ZONES} are where you can build {ROOMS}. Confirm the location by {TAPPING} the {BUILD ZONE}.,{BUILD ZONES}是您可以构建{ROOMS}的地方。通过{TAPPING}和{BUILD ZONE}确认位置。,机翻+术语处理
-1296,Message_Tutorial_04_PC,{BUILD ZONES} are where you can build {ROOMS}. Confirm the location by {CLICKING} the {BUILD ZONE}.,{BUILD ZONES}是您可以构建{ROOMS}的地方。通过{CLICKING}和{BUILD ZONE}确认位置。,机翻+术语处理
-1297,Message_Tutorial_04_PS4,{BUILD ZONES} are where you can build {ROOMS}. Use the {LEFT STICK} to {SELECT} a {BUILD ZONE} and {PRESS} [A] to confirm.,{BUILD ZONES}是您可以构建{ROOMS}的地方。使用{LEFT STICK}至{SELECT} a {BUILD ZONE}和{PRESS} [A]进行确认。,机翻+术语处理
-1298,Message_Tutorial_04_Switch,{BUILD ZONES} are where you can build {ROOMS}. Use the {LEFT STICK} to {SELECT} a {BUILD ZONE} and {PRESS} [A] to confirm.,{BUILD ZONES}是您可以构建{ROOMS}的地方。使用{LEFT STICK}至{SELECT} a {BUILD ZONE}和{PRESS} [A]进行确认。,机翻+术语处理
-1299,Message_Tutorial_04_Xbox,{BUILD ZONES} are where you can build {ROOMS}. Use the {LEFT STICK} to {SELECT} a {BUILD ZONE} and {PRESS} [A] to confirm.,{BUILD ZONES}是您可以构建{ROOMS}的地方。使用{LEFT STICK}至{SELECT} a {BUILD ZONE}和{PRESS} [A]进行确认。,机翻+术语处理
-1300,Message_Tutorial_05,Now we need {DWELLERS} to make the {POWER GENERATOR} produce power.,现在我们需要{DWELLERS}来使{POWER GENERATOR}产生电力。,机翻+术语处理
-1301,Message_Tutorial_06,Look! {NEW DWELLERS} have shown up at the {VAULT DOOR}.,看！{NEW DWELLERS}已出现在{VAULT DOOR}处。,机翻+术语处理
-1302,Message_Tutorial_07,Let's look at the {STATS} of a {DWELLER}. {TAP} on a {DWELLER} to {SEE THEIR INFO}.,让我们看一下{DWELLER}的{STATS}。{TAP}上的{DWELLER}至{SEE THEIR INFO}。,机翻+术语处理
-1303,Message_Tutorial_07_PC,Let's look at the {STATS} of a {DWELLER}. {CLICK} on a {DWELLER} to {SEE THEIR INFO}.,让我们看一下{DWELLER}的{STATS}。{CLICK}上的{DWELLER}至{SEE THEIR INFO}。,机翻+术语处理
-1304,Message_Tutorial_07_PS4,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{DWELLER}的{STATS}。{MOVE}到{WASTELAND}，用左摇杆到{SELECT}第一个{DWELLER}。,机翻+术语处理
-1305,Message_Tutorial_07_Switch,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{DWELLER}的{STATS}。{MOVE}到{WASTELAND}，用左摇杆到{SELECT}第一个{DWELLER}。,机翻+术语处理
-1306,Message_Tutorial_07_Xbox,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{DWELLER}的{STATS}。{MOVE}到{WASTELAND}，用左摇杆到{SELECT}第一个{DWELLER}。,机翻+术语处理
-1307,Message_Tutorial_08,You can see the {DWELLER'S SPECIAL} stats. This info tells you where a {DWELLER} can be used most effectively.,您可以看到{DWELLER'S SPECIAL}统计数据。此信息告诉您{DWELLER}在哪里可以最有效地使用。,机翻+术语处理
-1308,Message_Tutorial_09,"To assign a {DWELLER}, {TAP} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",将居民上的{DWELLER}、{TAP}和{HOLD}分配给房间，然后将它们{DRAG}分配到房间。尝试将此{DWELLER}分配给您刚刚建立的{POWER GENERATOR}房间。,机翻+术语处理
-1309,Message_Tutorial_09_PC,"To assign a {DWELLER}, {CLICK} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",将居民上的{DWELLER}、{CLICK}和{HOLD}分配给房间，然后将它们{DRAG}分配到房间。尝试将此{DWELLER}分配给您刚刚建立的{POWER GENERATOR}房间。,机翻+术语处理
-1310,Message_Tutorial_09_Xbox,"To assign a {SELECTED DWELLER}, {HOLD} [A] to grab them and then {SELECT} a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",分配{SELECTED DWELLER}、{HOLD}[A]来抢他们，然后{SELECT}一个房间。尝试将此{DWELLER}分配给您刚刚建立的{POWER GENERATOR}房间。,机翻+术语处理
-1311,Message_Tutorial_10,Now assign the second {DWELLER} to the {POWER GENERATOR}. Remember to {TAP} and {HOLD} and then {DRAG} the {DWELLER} to the room.,现在将第二个{DWELLER}分配给{POWER GENERATOR}。记得先{TAP}和{HOLD}然后{DRAG}{DWELLER}到房间。,机翻+术语处理
-1312,Message_Tutorial_10_PC,Now assign the second {DWELLER} to the {POWER GENERATOR}. Remember to {CLICK} and {HOLD} and then {DRAG} the {DWELLER} to the room.,现在将第二个{DWELLER}分配给{POWER GENERATOR}。记得先{CLICK}和{HOLD}然后{DRAG}{DWELLER}到房间。,机翻+术语处理
-1313,Message_Tutorial_10_Xbox,Now assign the second {DWELLER} to the {POWER GENERATOR}. Remember to {MOVE} to the {WASTELAND} and then {HOLD} [A] to grab them.,现在将第二个{DWELLER}分配给{POWER GENERATOR}。记得先{MOVE}到{WASTELAND}，然后{HOLD}[A]来抓住它们。,机翻+术语处理
-1314,Message_Tutorial_11,"Now that {DWELLERS} are working, the room will start {PRODUCING RESOURCES}. {DOUBLE TAP} on a {ROOM} to take a closer look.",现在{DWELLERS}正在工作，房间将开始{PRODUCING RESOURCES}。{DOUBLE TAP}在{ROOM}上仔细观察。,机翻+术语处理
-1315,Message_Tutorial_11_PC,"Now that {DWELLERS} are working, the room will start {PRODUCING RESOURCES}. {DOUBLE CLICK} on a {ROOM} to take a closer look.",现在{DWELLERS}正在工作，房间将开始{PRODUCING RESOURCES}。{DOUBLE CLICK}在{ROOM}上仔细观察。,机翻+术语处理
-1316,Message_Tutorial_11_Xbox,"Now that {DWELLERS} are working, the room will start {PRODUCING RESOURCES}. {HOLD} [RT] to zoom in for a closer look.",现在{DWELLERS}正在工作，房间将开始{PRODUCING RESOURCES}。{HOLD} [RT]放大以更仔细地查看。,机翻+术语处理
-1317,Message_Tutorial_12,"If you are in dire need of extra resources, you can use the {RUSH MODE}. {TAP} the {RUSH BUTTON} to {OPEN} the {RUSH MENU}.",如果您急需额外资源，可以使用{RUSH MODE}。{TAP} {RUSH BUTTON}至{OPEN} {RUSH MENU}。,机翻+术语处理
-1318,Message_Tutorial_12_PC,"If you are in dire need of extra resources, you can use the {RUSH MODE}. {CLICK} the {RUSH BUTTON} to {OPEN} the {RUSH MENU}.",如果您急需额外资源，可以使用{RUSH MODE}。{CLICK} {RUSH BUTTON}至{OPEN} {RUSH MENU}。,机翻+术语处理
-1319,Message_Tutorial_12_Xbox,"If you are in dire need of extra resources, you can use the {RUSH MODE}. Press [DU] to {OPEN} the {RUSH MENU}.",如果您急需额外资源，可以使用{RUSH MODE}。按[DU]到{OPEN} {RUSH MENU}。,机翻+术语处理
-1320,Message_Tutorial_13,"Activating Rush instantly produce {RESOURCES} and also {AWARDS} you {CAPS}. Although be careful, destructive {INCIDENTS} might happen.",激活Rush会立即产生{RESOURCES}和{AWARDS}你{CAPS}。尽管要小心，但破坏性的{INCIDENTS}可能会发生。,机翻+术语处理
-1321,Message_Tutorial_14,Great! You've successfully completed your first Rush and collected {CAPS}.,伟大的！您已成功完成第一次冲刺并收集了{CAPS}。,机翻+术语处理
-1322,Message_Tutorial_15,Now {TAP} on the {RESOURCE ICON} to {COLLECT} the resources and {RESTART ROOM PRODUCTION}.,现在{TAP}上的{RESOURCE ICON}到{COLLECT}资源和{RESTART ROOM PRODUCTION}。,机翻+术语处理
-1323,Message_Tutorial_15_PC,Now {CLICK} on the {RESOURCE ICON} to {COLLECT} the resources and {RESTART ROOM PRODUCTION}.,现在{CLICK}上的{RESOURCE ICON}到{COLLECT}资源和{RESTART ROOM PRODUCTION}。,机翻+术语处理
-1324,Message_Tutorial_15_Xbox,Now press [A] to {COLLECT} the resources and {RESTART ROOM PRODUCTION}.,现在按[A]到{COLLECT}资源和{RESTART ROOM PRODUCTION}。,机翻+术语处理
-1325,Message_Tutorial_16,"Each {WEEK}, {VAULT-TEC} will inspect your Vault and give you a rating based on your performance.",每个{WEEK}、{VAULT-TEC}都会检查你的避难所并根据你的表现给你一个评级。,机翻+术语处理
-1326,Message_Tutorial_17,Congratulations! You've earned your first {REWARD} - a {LUNCH BOX} filled with goodies.,恭喜！您已经赢得了第一个{REWARD} -一个装满好东西的{LUNCH BOX}。,机翻+术语处理
-1327,Message_Tutorial_18,Complete Vault-Tec {OBJECTIVES} to earn {CAPS} and {INCREASE} your {VAULT-TEC RATING}.,完成避难所科技{OBJECTIVES}即可获得{CAPS}和{INCREASE}你的{VAULT-TEC RATING}。,机翻+术语处理
-1328,Message_Tutorial_19,{ADD FRIENDS} to {VISIT} and look at their {VAULT} and {COLLECT CAPS}.,{ADD FRIENDS}到{VISIT}并查看它们的{VAULT}和{COLLECT CAPS}。,机翻+术语处理
-1329,Message_Tutorial_20,"Send {DWELLERS} to the {WASTELAND} to collect {CAPS}, {OUTFITS} and {WEAPONS}.",将{DWELLERS}发送到{WASTELAND}以收集{CAPS}、{OUTFITS}和{WEAPONS}。,机翻+术语处理
-1330,Message_Tutorial_21,The {RADIO STUDIO} attracts Dwellers from the Wasteland and boosts {DWELLER HAPPINESS} in the Vault.,{RADIO STUDIO}从废土吸引居民并增强避难所中的{DWELLER HAPPINESS}。,机翻+术语处理
-1331,Message_Tutorial_22,Here you can see and manage all the {WEAPONS} and {OUTFITS} you currently own.,在这里您可以查看和管理您当前拥有的所有{WEAPONS}和{OUTFITS}。,机翻+术语处理
-1332,Message_Tutorial_23,{TRAIN} your Dwellers to {INCREASE} their {SPECIAL} stats.,{TRAIN}你的居民到{INCREASE}他们的{SPECIAL}统计数据。,机翻+术语处理
-1333,Message_Tutorial_24,{MALE} and {FEMALE} Dwellers within the {LIVING QUARTERS} have a chance of making {BABIES}.,{MALE}和{FEMALE} {LIVING QUARTERS}内的居民有机会获得{BABIES}。,机翻+术语处理
-1334,Message_Tutorial_25,{DESTROY ROCKS} to {EXPAND} your {VAULT} deeper.,{DESTROY ROCKS}到{EXPAND}你的{VAULT}更深。,机翻+术语处理
-1335,Message_Tutorial_26,{STORAGE} Rooms expand your {VAULT INVENTORY}.,{STORAGE}房间扩展您的{VAULT INVENTORY}。,机翻+术语处理
-1336,Message_Tutorial_27,Rooms require {POWER} to function. Tap again to {CONFIRM}.,房间需要{POWER}才能运行。再次点击{CONFIRM}。,机翻+术语处理
-1337,Message_Tutorial_27_PC,Rooms require {POWER} to function. Click again to {CONFIRM}.,房间需要{POWER}才能运行。再次单击{CONFIRM}。,机翻+术语处理
-1338,Message_Tutorial_27_Xbox,Rooms require {POWER} to function. Press [A] again to {CONFIRM}.,房间需要{POWER}才能运行。再次按[A]到{CONFIRM}。,机翻+术语处理
+1288,Message_Tutorial_01,"Welcome to your new Vault, {OVERSEER}. Let's introduce you to the basic concepts.",欢迎来到你的新避难所，{监督者}。让我们先介绍一些基本概念。,人工UI覆盖
+1289,Message_Tutorial_02,First let's {BUILD} a {ROOM}. Tap on the {HAMMER ICON} to open the {BUILD MENU}.,首先，让我们{建造}一个{房间}。点击{锤子图标}打开{建造菜单}。,人工UI覆盖
+1290,Message_Tutorial_02_PC,First let's {BUILD} a {ROOM}. Click on the {HAMMER ICON} to open the {BUILD MENU}.,首先，让我们{建造}一个{房间}。点击{锤子图标}打开{建造菜单}。,人工UI覆盖
+1291,Message_Tutorial_02_Xbox,First let's {BUILD} a {ROOM}. Press [Y] to open the {BUILD MENU}.,首先让我们{建造}和{房间}。按[Y]打开{建造菜单}。,机翻+术语处理
+1292,Message_Tutorial_03,We'll build a {POWER GENERATOR} that will produce {POWER}. {TAP} on the {POWER ROOM}.,让我们建造一个能生产{电力}的{发电室}。{点击}{发电室}来放置它。,人工UI覆盖
+1293,Message_Tutorial_03_PC,We'll build a {POWER GENERATOR} that will produce {POWER}. {CLICK} on the {POWER ROOM}.,让我们建造一个能生产{电力}的{发电室}。{点击}{发电室}来放置它。,人工UI覆盖
+1294,Message_Tutorial_03_Xbox,We'll build a {POWER GENERATOR} that will produce {POWER}. Press [A] to {SELECT} the {POWER ROOM}.,我们将构建一个将生成{电力}的{发电室}。按[A]到{选择}到{发电室}。,机翻+术语处理
+1295,Message_Tutorial_04,{BUILD ZONES} are where you can build {ROOMS}. Confirm the location by {TAPPING} the {BUILD ZONE}.,{建造区域}是你建造{房间}的地方。{点击}{建造区域}确认位置。,人工UI覆盖
+1296,Message_Tutorial_04_PC,{BUILD ZONES} are where you can build {ROOMS}. Confirm the location by {CLICKING} the {BUILD ZONE}.,{建造区域}是你建造{房间}的地方。{点击}{建造区域}确认位置。,人工UI覆盖
+1297,Message_Tutorial_04_PS4,{BUILD ZONES} are where you can build {ROOMS}. Use the {LEFT STICK} to {SELECT} a {BUILD ZONE} and {PRESS} [A] to confirm.,{建造区域}是您可以构建{房间}的地方。使用{左摇杆}至{选择} a {建造区域}和{按下} [A]进行确认。,机翻+术语处理
+1298,Message_Tutorial_04_Switch,{BUILD ZONES} are where you can build {ROOMS}. Use the {LEFT STICK} to {SELECT} a {BUILD ZONE} and {PRESS} [A] to confirm.,{建造区域}是您可以构建{房间}的地方。使用{左摇杆}至{选择} a {建造区域}和{按下} [A]进行确认。,机翻+术语处理
+1299,Message_Tutorial_04_Xbox,{BUILD ZONES} are where you can build {ROOMS}. Use the {LEFT STICK} to {SELECT} a {BUILD ZONE} and {PRESS} [A] to confirm.,{建造区域}是您可以构建{房间}的地方。使用{左摇杆}至{选择} a {建造区域}和{按下} [A]进行确认。,机翻+术语处理
+1300,Message_Tutorial_05,Now we need {DWELLERS} to make the {POWER GENERATOR} produce power.,现在我们需要{居民}来让{发电室}发电。,人工UI覆盖
+1301,Message_Tutorial_06,Look! {NEW DWELLERS} have shown up at the {VAULT DOOR}.,看！{新居民}出现在了{避难所大门}。,人工UI覆盖
+1302,Message_Tutorial_07,Let's look at the {STATS} of a {DWELLER}. {TAP} on a {DWELLER} to {SEE THEIR INFO}.,来看看一个{居民}的{属性}。{点击}一个{居民}来{查看其信息}。,人工UI覆盖
+1303,Message_Tutorial_07_PC,Let's look at the {STATS} of a {DWELLER}. {CLICK} on a {DWELLER} to {SEE THEIR INFO}.,来看看一个{居民}的{属性}。{点击}一个{居民}来{查看其信息}。,人工UI覆盖
+1304,Message_Tutorial_07_PS4,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{居民}的{属性}。{移动}到{废土}，用左摇杆到{选择}第一个{居民}。,机翻+术语处理
+1305,Message_Tutorial_07_Switch,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{居民}的{属性}。{移动}到{废土}，用左摇杆到{选择}第一个{居民}。,机翻+术语处理
+1306,Message_Tutorial_07_Xbox,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{居民}的{属性}。{移动}到{废土}，用左摇杆到{选择}第一个{居民}。,机翻+术语处理
+1307,Message_Tutorial_08,You can see the {DWELLER'S SPECIAL} stats. This info tells you where a {DWELLER} can be used most effectively.,你可以看到{居民的SPECIAL}属性。这些信息能告诉你一个{居民}最适合做什么。,人工UI覆盖
+1308,Message_Tutorial_09,"To assign a {DWELLER}, {TAP} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",要指派{居民}，{点击}并{按住}居民，然后把他{拖动}到房间。试着把这个{居民}指派到你刚建好的{发电室}。,人工UI覆盖
+1309,Message_Tutorial_09_PC,"To assign a {DWELLER}, {CLICK} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",要指派{居民}，{点击}并{按住}居民，然后把他{拖动}到房间。试着把这个{居民}指派到你刚建好的{发电室}。,人工UI覆盖
+1310,Message_Tutorial_09_Xbox,"To assign a {SELECTED DWELLER}, {HOLD} [A] to grab them and then {SELECT} a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",分配{选中的居民}、{按住}[A]来抢他们，然后{选择}一个房间。尝试将此{居民}分配给您刚刚建立的{发电室}房间。,机翻+术语处理
+1311,Message_Tutorial_10,Now assign the second {DWELLER} to the {POWER GENERATOR}. Remember to {TAP} and {HOLD} and then {DRAG} the {DWELLER} to the room.,现在把第二个{居民}指派到{发电室}。记住{点击}并{按住}，然后把{居民}{拖动}到房间。,人工UI覆盖
+1312,Message_Tutorial_10_PC,Now assign the second {DWELLER} to the {POWER GENERATOR}. Remember to {CLICK} and {HOLD} and then {DRAG} the {DWELLER} to the room.,现在把第二个{居民}指派到{发电室}。记住{点击}并{按住}，然后把{居民}{拖动}到房间。,人工UI覆盖
+1313,Message_Tutorial_10_Xbox,Now assign the second {DWELLER} to the {POWER GENERATOR}. Remember to {MOVE} to the {WASTELAND} and then {HOLD} [A] to grab them.,现在将第二个{居民}分配给{发电室}。记得先{移动}到{废土}，然后{按住}[A]来抓住它们。,机翻+术语处理
+1314,Message_Tutorial_11,"Now that {DWELLERS} are working, the room will start {PRODUCING RESOURCES}. {DOUBLE TAP} on a {ROOM} to take a closer look.",既然{居民}已经开始工作，房间就会开始{生产资源}。{双击}一个{房间}可以仔细查看。,人工UI覆盖
+1315,Message_Tutorial_11_PC,"Now that {DWELLERS} are working, the room will start {PRODUCING RESOURCES}. {DOUBLE CLICK} on a {ROOM} to take a closer look.",既然{居民}已经开始工作，房间就会开始{生产资源}。{双击}一个{房间}可以仔细查看。,人工UI覆盖
+1316,Message_Tutorial_11_Xbox,"Now that {DWELLERS} are working, the room will start {PRODUCING RESOURCES}. {HOLD} [RT] to zoom in for a closer look.",现在{居民}正在工作，房间将开始{生产资源}。{按住} [RT]放大以更仔细地查看。,机翻+术语处理
+1317,Message_Tutorial_12,"If you are in dire need of extra resources, you can use the {RUSH MODE}. {TAP} the {RUSH BUTTON} to {OPEN} the {RUSH MENU}.",如果你急需额外资源，可以使用{加速模式}。{点击}{加速按钮}打开{加速菜单}。,人工UI覆盖
+1318,Message_Tutorial_12_PC,"If you are in dire need of extra resources, you can use the {RUSH MODE}. {CLICK} the {RUSH BUTTON} to {OPEN} the {RUSH MENU}.",如果你急需额外资源，可以使用{加速模式}。{点击}{加速按钮}打开{加速菜单}。,人工UI覆盖
+1319,Message_Tutorial_12_Xbox,"If you are in dire need of extra resources, you can use the {RUSH MODE}. Press [DU] to {OPEN} the {RUSH MENU}.",如果您急需额外资源，可以使用{加速模式}。按[DU]到{打开} {加速菜单}。,机翻+术语处理
+1320,Message_Tutorial_13,"Activating Rush instantly produce {RESOURCES} and also {AWARDS} you {CAPS}. Although be careful, destructive {INCIDENTS} might happen.",启动加速会立刻产出{资源}，还会{奖励}你{瓶盖}。不过要小心，可能会发生破坏性{事件}。,人工UI覆盖
+1321,Message_Tutorial_14,Great! You've successfully completed your first Rush and collected {CAPS}.,太好了！你成功完成了第一次加速，并收集到了{瓶盖}。,人工UI覆盖
+1322,Message_Tutorial_15,Now {TAP} on the {RESOURCE ICON} to {COLLECT} the resources and {RESTART ROOM PRODUCTION}.,现在{点击}{资源图标}来{收集}资源，并{重启房间生产}。,人工UI覆盖
+1323,Message_Tutorial_15_PC,Now {CLICK} on the {RESOURCE ICON} to {COLLECT} the resources and {RESTART ROOM PRODUCTION}.,现在{点击}{资源图标}来{收集}资源，并{重启房间生产}。,人工UI覆盖
+1324,Message_Tutorial_15_Xbox,Now press [A] to {COLLECT} the resources and {RESTART ROOM PRODUCTION}.,现在按[A]到{收集}资源和{重启房间生产}。,机翻+术语处理
+1325,Message_Tutorial_16,"Each {WEEK}, {VAULT-TEC} will inspect your Vault and give you a rating based on your performance.",每{周}，{避难所科技}都会检查你的避难所，并根据你的表现给出评分。,人工UI覆盖
+1326,Message_Tutorial_17,Congratulations! You've earned your first {REWARD} - a {LUNCH BOX} filled with goodies.,恭喜！你获得了第一个{奖励}——一个装满好东西的{午餐盒}。,人工UI覆盖
+1327,Message_Tutorial_18,Complete Vault-Tec {OBJECTIVES} to earn {CAPS} and {INCREASE} your {VAULT-TEC RATING}.,完成避难所科技的{目标}，赚取{瓶盖}并{提高}你的{避难所科技评分}。,人工UI覆盖
+1328,Message_Tutorial_19,{ADD FRIENDS} to {VISIT} and look at their {VAULT} and {COLLECT CAPS}.,{添加好友}来{访问}并查看他们的{避难所}，还能{收集瓶盖}。,人工UI覆盖
+1329,Message_Tutorial_20,"Send {DWELLERS} to the {WASTELAND} to collect {CAPS}, {OUTFITS} and {WEAPONS}.",派{居民}去{废土}收集{瓶盖}、{服装}和{武器}。,人工UI覆盖
+1330,Message_Tutorial_21,The {RADIO STUDIO} attracts Dwellers from the Wasteland and boosts {DWELLER HAPPINESS} in the Vault.,{广播室}会吸引废土上的居民，并提高避难所内的{居民幸福度}。,人工UI覆盖
+1331,Message_Tutorial_22,Here you can see and manage all the {WEAPONS} and {OUTFITS} you currently own.,在这里你可以查看并管理当前拥有的所有{武器}和{服装}。,人工UI覆盖
+1332,Message_Tutorial_23,{TRAIN} your Dwellers to {INCREASE} their {SPECIAL} stats.,{训练}你的居民以提高他们的{SPECIAL}属性。,人工UI覆盖
+1333,Message_Tutorial_24,{MALE} and {FEMALE} Dwellers within the {LIVING QUARTERS} have a chance of making {BABIES}.,{宿舍}里的{男性}和{女性}居民有机会生下{婴儿}。,人工UI覆盖
+1334,Message_Tutorial_25,{DESTROY ROCKS} to {EXPAND} your {VAULT} deeper.,{清除岩石}来{扩展}你的{避难所}，向更深处建造。,人工UI覆盖
+1335,Message_Tutorial_26,{STORAGE} Rooms expand your {VAULT INVENTORY}.,{储藏室}可以扩大你的{避难所库存}。,人工UI覆盖
+1336,Message_Tutorial_27,Rooms require {POWER} to function. Tap again to {CONFIRM}.,房间需要{电力}才能运作。再次{点击}以{确认}。,人工UI覆盖
+1337,Message_Tutorial_27_PC,Rooms require {POWER} to function. Click again to {CONFIRM}.,房间需要{电力}才能运作。再次{点击}以{确认}。,人工UI覆盖
+1338,Message_Tutorial_27_Xbox,Rooms require {POWER} to function. Press [A] again to {CONFIRM}.,房间需要{电力}才能运行。再次按[A]到{确认}。,机翻+术语处理
 1339,Message_Tutorial_28,"Now that you know the basic rules of the Overseer role, keep expanding your Vault. Just remember to keep your Dwellers alive and happy. Good luck!",现在您已经了解了监督者角色的基本规则，请继续扩展您的避难所。只要记住让你的居民保持活力和快乐即可。好幸运！,机翻+术语处理
-1340,Message_Tutorial_29,Click on the {NUKA CAPS} to open your {LUNCHBOX MENU}.,单击{NUKA CAPS}打开{LUNCHBOX MENU}。,机翻+术语处理
-1341,Message_Tutorial_29_Xbox,Select the {LUNCHBOX ICON} in the {PIP-BOY} to open your {LUNCHBOX MENU}.,选择{PIP-BOY}中的{LUNCHBOX ICON}以打开{LUNCHBOX MENU}。,机翻+术语处理
-1342,Message_Tutorial_30,Look! {MORE DWELLERS} have shown up at the {VAULT DOOR}.,看！{MORE DWELLERS}已出现在{VAULT DOOR}处。,机翻+术语处理
-1343,Message_Tutorial_31,Make sure you equip your {DWELLERS} before sending them out to explore the {WASTELAND}. This will increase their chance of survival.,在派出{DWELLERS}去探索{WASTELAND}之前，请确保为他们装备好物品。这会提高他们的生存几率。,人工UI覆盖
-1344,Message_Tutorial_32,{BUILD} an {ELEVATOR} to gain access to the next floor.,{BUILD}和{ELEVATOR}进入下一层。,机翻+术语处理
-1345,Message_Tutorial_34,Remember to {DESTROY} a rock before you {BUILD} a {ROOM}.,记得在{BUILD}和{ROOM}之前{DESTROY}一块石头。,机翻+术语处理
-1346,Message_Tutorial_35,No more space available for construction! {DESTROY} the {ROCK} that is blocking the room in order to proceed.,没有更多空间可用于施工！{DESTROY}正在封锁房间以便继续进行的{ROCK}。,机翻+术语处理
-1347,Message_Tutorial_36,{DESTROY} the rock that is blocking the elevator in order to access the next floor.,{DESTROY}阻碍电梯进入下一层的岩石。,机翻+术语处理
-1348,Message_Tutorial_38,Let's build a second {ROOM}.,让我们构建第二个{ROOM}。,机翻+术语处理
-1349,Message_Tutorial_39,"You need a {DINER}, which will produce {FOOD}. {TAP} on the {DINER}.",您需要一个{DINER}，它将产生{FOOD}。{DINER}上的{TAP}。,机翻+术语处理
-1350,Message_Tutorial_39_PC,"You need a {DINER}, which will produce {FOOD}. {CLICK} on the {DINER}.",您需要一个{DINER}，它将产生{FOOD}。{DINER}上的{CLICK}。,机翻+术语处理
-1351,Message_Tutorial_39_Xbox,"You need a {DINER}, which will produce {FOOD}. {SELECT} the {DINER}.",您需要一个{DINER}，它将产生{FOOD}。{SELECT} {DINER}。,机翻+术语处理
-1352,Message_Tutorial_40,Dwellers require {FOOD} to keep their {HEALTH} up. Tap again to {CONFIRM}.,居民需要{FOOD}来保持{HEALTH}的状态。再次点击{CONFIRM}。,机翻+术语处理
-1353,Message_Tutorial_40_PC,Dwellers require {FOOD} to keep their {HEALTH} up. Click again to {CONFIRM}.,居民需要{FOOD}来保持{HEALTH}的状态。再次单击{CONFIRM}。,机翻+术语处理
-1354,Message_Tutorial_40_Xbox,Dwellers require {FOOD} to keep their {HEALTH} up. Press [A] again to {CONFIRM}.,居民需要{FOOD}来保持{HEALTH}的状态。再次按[A]到{CONFIRM}。,机翻+术语处理
-1355,Message_Tutorial_41,Confirm the location by {TAPPING} the {BUILD ZONE}.,通过{TAPPING}和{BUILD ZONE}确认位置。,机翻+术语处理
-1356,Message_Tutorial_41_PC,Confirm the location by {CLICKING} the {BUILD ZONE}.,通过{CLICKING}和{BUILD ZONE}确认位置。,机翻+术语处理
-1357,Message_Tutorial_41_Xbox,Confirm the location by {SELECTING} a {BUILD ZONE}.,通过{SELECTING}和{BUILD ZONE}确认位置。,机翻+术语处理
+1340,Message_Tutorial_29,Click on the {NUKA CAPS} to open your {LUNCHBOX MENU}.,点击{核子瓶盖}打开你的{午餐盒菜单}。,人工UI覆盖
+1341,Message_Tutorial_29_Xbox,Select the {LUNCHBOX ICON} in the {PIP-BOY} to open your {LUNCHBOX MENU}.,选择{哔哔小子}中的{午餐盒图标}以打开{午餐盒菜单}。,机翻+术语处理
+1342,Message_Tutorial_30,Look! {MORE DWELLERS} have shown up at the {VAULT DOOR}.,看！{更多居民}已出现在{避难所大门}处。,机翻+术语处理
+1343,Message_Tutorial_31,Make sure you equip your {DWELLERS} before sending them out to explore the {WASTELAND}. This will increase their chance of survival.,在派出{居民}探索{废土}之前，请确保为他们装备好物品。这会提高他们的生存几率。,人工UI覆盖
+1344,Message_Tutorial_32,{BUILD} an {ELEVATOR} to gain access to the next floor.,{建造}一部{电梯}来进入下一层。,人工UI覆盖
+1345,Message_Tutorial_34,Remember to {DESTROY} a rock before you {BUILD} a {ROOM}.,在{建造}一个{房间}之前，记得先{摧毁}岩石。,人工UI覆盖
+1346,Message_Tutorial_35,No more space available for construction! {DESTROY} the {ROCK} that is blocking the room in order to proceed.,没有更多建造空间了！{摧毁}挡住房间的{岩石}才能继续。,人工UI覆盖
+1347,Message_Tutorial_36,{DESTROY} the rock that is blocking the elevator in order to access the next floor.,{摧毁}挡住电梯的岩石，才能进入下一层。,人工UI覆盖
+1348,Message_Tutorial_38,Let's build a second {ROOM}.,让我们再建一个{房间}。,人工UI覆盖
+1349,Message_Tutorial_39,"You need a {DINER}, which will produce {FOOD}. {TAP} on the {DINER}.",你需要一个{餐厅}，它会产出{食物}。{点击}{餐厅}。,人工UI覆盖
+1350,Message_Tutorial_39_PC,"You need a {DINER}, which will produce {FOOD}. {CLICK} on the {DINER}.",你需要一个{餐厅}，它会产出{食物}。{点击}{餐厅}。,人工UI覆盖
+1351,Message_Tutorial_39_Xbox,"You need a {DINER}, which will produce {FOOD}. {SELECT} the {DINER}.",您需要一个{餐厅}，它将产生{食物}。{选择} {餐厅}。,机翻+术语处理
+1352,Message_Tutorial_40,Dwellers require {FOOD} to keep their {HEALTH} up. Tap again to {CONFIRM}.,居民需要{食物}来维持{生命值}。再次点击以{确认}。,人工UI覆盖
+1353,Message_Tutorial_40_PC,Dwellers require {FOOD} to keep their {HEALTH} up. Click again to {CONFIRM}.,居民需要{食物}来维持{生命值}。再次点击以{确认}。,人工UI覆盖
+1354,Message_Tutorial_40_Xbox,Dwellers require {FOOD} to keep their {HEALTH} up. Press [A] again to {CONFIRM}.,居民需要{食物}来保持{生命值}的状态。再次按[A]到{确认}。,机翻+术语处理
+1355,Message_Tutorial_41,Confirm the location by {TAPPING} the {BUILD ZONE}.,{点击}{建造区域}来确认位置。,人工UI覆盖
+1356,Message_Tutorial_41_PC,Confirm the location by {CLICKING} the {BUILD ZONE}.,{点击}{建造区域}来确认位置。,人工UI覆盖
+1357,Message_Tutorial_41_Xbox,Confirm the location by {SELECTING} a {BUILD ZONE}.,通过{选择}和{建造区域}确认位置。,机翻+术语处理
 1358,Message_Tutorial_42,Now let's build one more room.,现在让我们再建一间房间。,机翻+术语处理
-1359,Message_Tutorial_43,"This time, you need a {WATER TREATMENT} room, which will produce {WATER}. {TAP} on {WATER TREATMENT}.",这次，你需要一个{WATER TREATMENT}房间，它将产生{WATER}。{TAP}在{WATER TREATMENT}上。,机翻+术语处理
-1360,Message_Tutorial_43_PC,"This time, you need a {WATER TREATMENT} room, which will produce {WATER}. {CLICK} on {WATER TREATMENT}.",这次，你需要一个{WATER TREATMENT}房间，它将产生{WATER}。{CLICK}在{WATER TREATMENT}上。,机翻+术语处理
-1361,Message_Tutorial_43_Xbox,"This time, you need a {WATER TREATMENT} room, which will produce {WATER}. {SELECT} the {WATER TREATMENT}.",这次，你需要一个{WATER TREATMENT}房间，它将产生{WATER}。{SELECT} {WATER TREATMENT}。,机翻+术语处理
-1362,Message_Tutorial_44,Dwellers require {WATER} to keep their {RADIATION} level low. Tap again to {CONFIRM}.,居民要求{WATER}保持其{RADIATION}电平较低。再次点击{CONFIRM}。,机翻+术语处理
-1363,Message_Tutorial_44_PC,Dwellers require {WATER} to keep their {RADIATION} level low. Click again to {CONFIRM}.,居民要求{WATER}保持其{RADIATION}电平较低。再次单击{CONFIRM}。,机翻+术语处理
-1364,Message_Tutorial_44_Xbox,Dwellers require {WATER} to keep their {RADIATION} level low. Press [A] again to {CONFIRM}.,居民要求{WATER}保持其{RADIATION}水平较低。再次按[A]到{CONFIRM}。,机翻+术语处理
-1365,Message_Tutorial_45,Confirm the location by {TAPPING} the {BUILD ZONE}.,通过{TAPPING}和{BUILD ZONE}确认位置。,机翻+术语处理
-1366,Message_Tutorial_45_PC,Confirm the location by {CLICKING} the {BUILD ZONE}.,通过{CLICKING}和{BUILD ZONE}确认位置。,机翻+术语处理
-1367,Message_Tutorial_45_Xbox,Confirm the location by {SELECTING} a {BUILD ZONE}.,通过{SELECTING}和{BUILD ZONE}确认位置。,机翻+术语处理
-1368,Message_Tutorial_46,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. Look at the {METERS} to keep track of your {RESOURCES} needs.,干得好！这里有一些{FOOD}和{WATER}来开始你的{VAULT}。查看{METERS}以跟踪您的{RESOURCES}需求。,机翻+术语处理
-1369,Message_Tutorial_46_PS4,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. Press {L3} to display your Vault {METER} details and remember to keep track of your {RESOURCES} needs.,干得好！这里有一些{FOOD}和{WATER}来开始你的{VAULT}。按{L3}显示您的避难所{METER}详细信息，并记住跟踪您的{RESOURCES}需求。,机翻+术语处理
-1370,Message_Tutorial_46_Switch,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. {PRESS} the {LEFT STICK} to display your Vault {METER} details and remember to keep track of your {RESOURCES} needs.,干得好！这里有一些{FOOD}和{WATER}来开始你的{VAULT}。{PRESS} {LEFT STICK}显示您的避难所{METER}详细信息，并记住跟踪您的{RESOURCES}需求。,机翻+术语处理
-1371,Message_Tutorial_46_Xbox,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. {CLICK} the {LEFT STICK} to display your Vault {METER} details and remember to keep track of your {RESOURCES} needs.,干得好！这里有一些{FOOD}和{WATER}来开始你的{VAULT}。{CLICK} {LEFT STICK}显示您的避难所{METER}详细信息，并记住跟踪您的{RESOURCES}需求。,机翻+术语处理
-1372,Message_Tutorial_47,{JUNK} is used to {CRAFT WEAPONS} and {OUTFITS} in the {WORKSHOP} rooms.,{JUNK}用于{WORKSHOP}房间中的{CRAFT WEAPONS}和{OUTFITS}。,机翻+术语处理
-1373,Message_Tutorial_48,A {PREGNANT DWELLER} is ready to give birth! {TAP} the {ICON} above her head to welcome a {CHILD} to your Vault.,{PREGNANT DWELLER}已准备好分娩了！{TAP}将{ICON}举过她的头顶，欢迎{CHILD}来到你的避难所。,机翻+术语处理
-1374,Message_Tutorial_48_PC,A {PREGNANT DWELLER} is ready to give birth! {CLICK} the {ICON} above her head to welcome a {CHILD} to your Vault.,{PREGNANT DWELLER}已准备好分娩了！{CLICK}将{ICON}举过她的头顶，欢迎{CHILD}来到你的避难所。,机翻+术语处理
-1375,Message_Tutorial_48_Xbox,A {PREGNANT DWELLER} is ready to give birth! {SELECT} her to welcome a {CHILD} to your Vault.,{PREGNANT DWELLER}已准备好分娩了！{SELECT}她欢迎{CHILD}来到你的避难所。,机翻+术语处理
-1376,Message_Tutorial_49,Your {INVENTORY} is {FULL}. Excess {ITEMS} will be stored but {UNAVAILABLE} until there's space for them.,您的{INVENTORY}是{FULL}。多余的{ITEMS}将被存储，但{UNAVAILABLE}会被存储，直到有空间为止。,机翻+术语处理
-1377,Message_Tutorial_50,{ITEMS} within a {DASHED RECTANGLE} exceed your {INVENTORY} and are {UNAVAILABLE} until there's space for them.,{DASHED RECTANGLE}内的{ITEMS}超过您的{INVENTORY}并为{UNAVAILABLE}，直到有空间容纳它们。,机翻+术语处理
-1378,Message_Tutorial_51,"{SCRAPPING} an {ITEM} turns it into {JUNK}, but it's {RISKY}. You might get lots of {JUNK}, just a little, or none at all.",{SCRAPPING}和{ITEM}将其变成{JUNK}，但它是{RISKY}。您可能会得到很多{JUNK}，也可能只有一点，或者根本没有。,机翻+术语处理
-1379,Message_Tutorial_52,Congratulations – you just built the {OVERSEER'S OFFICE}! You can now send teams of {DWELLERS} out of the Vault on {QUESTS}.,恭喜–您刚刚构建了{OVERSEER'S OFFICE}！现在，您可以将{DWELLERS}团队从{QUESTS}的避难所中派出。,机翻+术语处理
-1380,Message_Tutorial_53,"To access your {QUEST LIST}, {SELECT} the {PIP-BOY}.",访问您的{QUEST LIST}、{SELECT}和{PIP-BOY}。,机翻+术语处理
-1381,Message_Tutorial_53_Xbox,"To access your {QUEST LIST}, press [B] to open the {PIP-BOY}.",要访问{QUEST LIST}，请按[B]打开{PIP-BOY}。,机翻+术语处理
-1382,Message_Tutorial_54,Now {SELECT} the {MAP ICON}.,现在{SELECT}{MAP ICON}。,机翻+术语处理
-1383,Message_Tutorial_55,Available {QUESTS} will be listed here. {SELECT} the first {QUEST} for more information.,此处将列出可用的{QUESTS}。{SELECT}第一个{QUEST}了解更多信息。,机翻+术语处理
-1384,Message_Tutorial_56,{TAP} here to assign {DWELLERS} to the {QUEST} team.,{TAP}此处将{DWELLERS}分配给{QUEST}团队。,机翻+术语处理
-1385,Message_Tutorial_56_PC,{CLICK} here to assign {DWELLERS} to the {QUEST} team.,{CLICK}此处将{DWELLERS}分配给{QUEST}团队。,机翻+术语处理
-1386,Message_Tutorial_56_Xbox,Press [A] to assign {DWELLERS} to the {QUEST} team.,按[A]将{DWELLERS}分配给{QUEST}团队。,机翻+术语处理
-1387,Message_Tutorial_57,First {SELECT} a {DWELLER} slot.,第一个{SELECT}一个{DWELLER}插槽。,机翻+术语处理
-1388,Message_Tutorial_58,Now {SELECT} the Dweller you want to send on the {QUEST}.,现在{SELECT}您要在{QUEST}上发送的居民。,机翻+术语处理
-1389,Message_Tutorial_59,{SELECT} the inventory slots to prepare the {DWELLERS} for the {QUEST}.,{SELECT}库存槽位，为{QUEST}准备{DWELLERS}。,机翻+术语处理
-1390,Message_Tutorial_60,Now {SELECT} a {WEAPON}.,现在{SELECT}一个{WEAPON}。,机翻+术语处理
-1391,Message_Tutorial_61,"When you are finished assigning and equipping {DWELLERS}, {TAP} the {START QUEST} button to send them out on their adventure.",当您完成分配和装备{DWELLERS}、{TAP}后，按{START QUEST}按钮将他们送出去冒险。,机翻+术语处理
-1392,Message_Tutorial_61_PC,"When you are finished assigning and equipping {DWELLERS}, {CLICK} the {START QUEST} button to send them out on their adventure.",当您完成分配和装备{DWELLERS}、{CLICK}后，按{START QUEST}按钮将他们送出去冒险。,机翻+术语处理
-1393,Message_Tutorial_61_Xbox,"When you are finished assigning and equipping {DWELLERS}, select {START QUEST} to send them out on their adventure.",当你完成分配和装备{DWELLERS}后，选择{START QUEST}让他们出去冒险。,机翻+术语处理
-1394,Message_Tutorial_62,{TAP} the {WASTELAND} to open the {WASTELAND QUEST LOG}.,{TAP} {WASTELAND}打开{WASTELAND QUEST LOG}。,机翻+术语处理
-1395,Message_Tutorial_62_PC,{CLICK} the {WASTELAND} to open the {WASTELAND QUEST LOG}.,{CLICK} {WASTELAND}打开{WASTELAND QUEST LOG}。,机翻+术语处理
-1396,Message_Tutorial_62_Xbox,Press [DL] to open the {WASTELAND QUEST LOG}.,按[DL]打开{WASTELAND QUEST LOG}。,机翻+术语处理
-1397,Message_Tutorial_63,With {NUKA-COLA QUANTUM} you can reach a {QUEST} instantly. {TAP} here to use the {NUKA-COLA QUANTUM} Vault-Tec has provided to reach this {QUEST} now.,通过{NUKA-COLA QUANTUM}，您可以立即到达{QUEST}。{TAP}这里使用Vault-Tec提供的{NUKA-COLA QUANTUM}来达到这个{QUEST}现在。,机翻+术语处理
-1398,Message_Tutorial_63_PC,With {NUKA-COLA QUANTUM} you can reach a {QUEST} instantly. {CLICK} here to use the {NUKA-COLA QUANTUM} Vault-Tec has provided to reach this {QUEST} now.,通过{NUKA-COLA QUANTUM}，您可以立即到达{QUEST}。{CLICK}这里使用Vault-Tec提供的{NUKA-COLA QUANTUM}来达到这个{QUEST}现在。,机翻+术语处理
-1399,Message_Tutorial_63_Xbox,With {NUKA-COLA QUANTUM} you can reach a {QUEST} instantly. Select {REACH NOW} to use the {NUKA-COLA QUANTUM} Vault-Tec has provided.,通过{NUKA-COLA QUANTUM}，您可以立即到达{QUEST}。选择{REACH NOW}以使用Vault-Tec提供的{NUKA-COLA QUANTUM}。,机翻+术语处理
-1400,Message_Tutorial_64,"You can also use {NUKA-COLA QUANTUM} to skip {OBJECTIVES} in the {VAULT} and to speed up {CRAFTING}, {TRAINING} and Barbershop {CUSTOMIZATION}.",您还可以使用{NUKA-COLA QUANTUM}跳过{VAULT}中的{OBJECTIVES}并加速{CRAFTING}、{TRAINING}和理发店{CUSTOMIZATION}。,机翻+术语处理
-1401,Message_Tutorial_65,"{QUESTS} allow you to explore new locations, meet new {DWELLERS} and collect {LOOT}. The {MAP ICON} in the upper right corner will display your {QUEST OBJECTIVES}.",{QUESTS}让你探索新的地点，结识新的{DWELLERS}并收集{LOOT}。右上角的{MAP ICON}将显示您的{QUEST OBJECTIVES}。,机翻+术语处理
+1359,Message_Tutorial_43,"This time, you need a {WATER TREATMENT} room, which will produce {WATER}. {TAP} on {WATER TREATMENT}.",这次你需要一个{净水室}，它会产出{水}。{点击}{净水室}。,人工UI覆盖
+1360,Message_Tutorial_43_PC,"This time, you need a {WATER TREATMENT} room, which will produce {WATER}. {CLICK} on {WATER TREATMENT}.",这次你需要一个{净水室}，它会产出{水}。{点击}{净水室}。,人工UI覆盖
+1361,Message_Tutorial_43_Xbox,"This time, you need a {WATER TREATMENT} room, which will produce {WATER}. {SELECT} the {WATER TREATMENT}.",这次，你需要一个{净水室}房间，它将产生{水}。{选择} {净水室}。,机翻+术语处理
+1362,Message_Tutorial_44,Dwellers require {WATER} to keep their {RADIATION} level low. Tap again to {CONFIRM}.,居民需要{水}来降低{辐射}水平。再次点击以{确认}。,人工UI覆盖
+1363,Message_Tutorial_44_PC,Dwellers require {WATER} to keep their {RADIATION} level low. Click again to {CONFIRM}.,居民需要{水}来降低{辐射}水平。再次点击以{确认}。,人工UI覆盖
+1364,Message_Tutorial_44_Xbox,Dwellers require {WATER} to keep their {RADIATION} level low. Press [A] again to {CONFIRM}.,居民要求{水}保持其{辐射}水平较低。再次按[A]到{确认}。,机翻+术语处理
+1365,Message_Tutorial_45,Confirm the location by {TAPPING} the {BUILD ZONE}.,{点击}{建造区域}来确认位置。,人工UI覆盖
+1366,Message_Tutorial_45_PC,Confirm the location by {CLICKING} the {BUILD ZONE}.,{点击}{建造区域}来确认位置。,人工UI覆盖
+1367,Message_Tutorial_45_Xbox,Confirm the location by {SELECTING} a {BUILD ZONE}.,通过{选择}和{建造区域}确认位置。,机翻+术语处理
+1368,Message_Tutorial_46,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. Look at the {METERS} to keep track of your {RESOURCES} needs.,干得好！这里有一些{食物}和{水}来启动你的{避难所}。查看{状态条}来掌握{资源}需求。,人工UI覆盖
+1369,Message_Tutorial_46_PS4,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. Press {L3} to display your Vault {METER} details and remember to keep track of your {RESOURCES} needs.,干得好！这里有一些{食物}和{水}来开始你的{避难所}。按{L3}显示您的避难所{状态条}详细信息，并记住跟踪您的{资源}需求。,机翻+术语处理
+1370,Message_Tutorial_46_Switch,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. {PRESS} the {LEFT STICK} to display your Vault {METER} details and remember to keep track of your {RESOURCES} needs.,干得好！这里有一些{食物}和{水}来开始你的{避难所}。{按下} {左摇杆}显示您的避难所{状态条}详细信息，并记住跟踪您的{资源}需求。,机翻+术语处理
+1371,Message_Tutorial_46_Xbox,Great work! Here's some {FOOD} and {WATER} to start your {VAULT}. {CLICK} the {LEFT STICK} to display your Vault {METER} details and remember to keep track of your {RESOURCES} needs.,干得好！这里有一些{食物}和{水}来开始你的{避难所}。{点击} {左摇杆}显示您的避难所{状态条}详细信息，并记住跟踪您的{资源}需求。,机翻+术语处理
+1372,Message_Tutorial_47,{JUNK} is used to {CRAFT WEAPONS} and {OUTFITS} in the {WORKSHOP} rooms.,{废料}用于在{工坊}里{制作武器}和{服装}。,人工UI覆盖
+1373,Message_Tutorial_48,A {PREGNANT DWELLER} is ready to give birth! {TAP} the {ICON} above her head to welcome a {CHILD} to your Vault.,{怀孕居民}准备分娩了！{点击}她头上的{图标}，欢迎{孩子}来到你的避难所。,人工UI覆盖
+1374,Message_Tutorial_48_PC,A {PREGNANT DWELLER} is ready to give birth! {CLICK} the {ICON} above her head to welcome a {CHILD} to your Vault.,{怀孕居民}准备分娩了！{点击}她头上的{图标}，欢迎{孩子}来到你的避难所。,人工UI覆盖
+1375,Message_Tutorial_48_Xbox,A {PREGNANT DWELLER} is ready to give birth! {SELECT} her to welcome a {CHILD} to your Vault.,{怀孕居民}已准备好分娩了！{选择}她欢迎{孩子}来到你的避难所。,机翻+术语处理
+1376,Message_Tutorial_49,Your {INVENTORY} is {FULL}. Excess {ITEMS} will be stored but {UNAVAILABLE} until there's space for them.,你的{库存}已{满}。多余的{物品}会被存放，但在有空间之前{不可用}。,人工UI覆盖
+1377,Message_Tutorial_50,{ITEMS} within a {DASHED RECTANGLE} exceed your {INVENTORY} and are {UNAVAILABLE} until there's space for them.,{虚线框}内的{物品}超出了你的{库存}，在有空间之前{不可用}。,人工UI覆盖
+1378,Message_Tutorial_51,"{SCRAPPING} an {ITEM} turns it into {JUNK}, but it's {RISKY}. You might get lots of {JUNK}, just a little, or none at all.",{拆解}一件{物品}会把它变成{废料}，但这{有风险}。你可能得到很多{废料}、一点，或者什么都没有。,人工UI覆盖
+1379,Message_Tutorial_52,Congratulations – you just built the {OVERSEER'S OFFICE}! You can now send teams of {DWELLERS} out of the Vault on {QUESTS}.,恭喜——你刚刚建好了{监督者办公室}！现在你可以派{居民}队伍离开避难所执行{任务}。,人工UI覆盖
+1380,Message_Tutorial_53,"To access your {QUEST LIST}, {SELECT} the {PIP-BOY}.",要打开{任务列表}，{选择}{哔哔小子}。,人工UI覆盖
+1381,Message_Tutorial_53_Xbox,"To access your {QUEST LIST}, press [B] to open the {PIP-BOY}.",要访问{任务列表}，请按[B]打开{哔哔小子}。,机翻+术语处理
+1382,Message_Tutorial_54,Now {SELECT} the {MAP ICON}.,现在{选择}{地图图标}。,人工UI覆盖
+1383,Message_Tutorial_55,Available {QUESTS} will be listed here. {SELECT} the first {QUEST} for more information.,可用的{任务}会列在这里。{选择}第一个{任务}查看更多信息。,人工UI覆盖
+1384,Message_Tutorial_56,{TAP} here to assign {DWELLERS} to the {QUEST} team.,{点击}这里把{居民}指派到{任务}队伍。,人工UI覆盖
+1385,Message_Tutorial_56_PC,{CLICK} here to assign {DWELLERS} to the {QUEST} team.,{点击}这里把{居民}指派到{任务}队伍。,人工UI覆盖
+1386,Message_Tutorial_56_Xbox,Press [A] to assign {DWELLERS} to the {QUEST} team.,按[A]将{居民}分配给{任务}团队。,机翻+术语处理
+1387,Message_Tutorial_57,First {SELECT} a {DWELLER} slot.,首先{选择}一个{居民}槽位。,人工UI覆盖
+1388,Message_Tutorial_58,Now {SELECT} the Dweller you want to send on the {QUEST}.,现在{选择}你想派去执行{任务}的居民。,人工UI覆盖
+1389,Message_Tutorial_59,{SELECT} the inventory slots to prepare the {DWELLERS} for the {QUEST}.,{选择}物品栏来为{任务}准备{居民}。,人工UI覆盖
+1390,Message_Tutorial_60,Now {SELECT} a {WEAPON}.,现在{选择}一件{武器}。,人工UI覆盖
+1391,Message_Tutorial_61,"When you are finished assigning and equipping {DWELLERS}, {TAP} the {START QUEST} button to send them out on their adventure.",指派并装备好{居民}后，{点击}{开始任务}按钮，派他们踏上冒险。,人工UI覆盖
+1392,Message_Tutorial_61_PC,"When you are finished assigning and equipping {DWELLERS}, {CLICK} the {START QUEST} button to send them out on their adventure.",指派并装备好{居民}后，{点击}{开始任务}按钮，派他们踏上冒险。,人工UI覆盖
+1393,Message_Tutorial_61_Xbox,"When you are finished assigning and equipping {DWELLERS}, select {START QUEST} to send them out on their adventure.",当你完成分配和装备{居民}后，选择{开始任务}让他们出去冒险。,机翻+术语处理
+1394,Message_Tutorial_62,{TAP} the {WASTELAND} to open the {WASTELAND QUEST LOG}.,{点击}{废土}打开{废土任务日志}。,人工UI覆盖
+1395,Message_Tutorial_62_PC,{CLICK} the {WASTELAND} to open the {WASTELAND QUEST LOG}.,{点击}{废土}打开{废土任务日志}。,人工UI覆盖
+1396,Message_Tutorial_62_Xbox,Press [DL] to open the {WASTELAND QUEST LOG}.,按[DL]打开{废土任务日志}。,机翻+术语处理
+1397,Message_Tutorial_63,With {NUKA-COLA QUANTUM} you can reach a {QUEST} instantly. {TAP} here to use the {NUKA-COLA QUANTUM} Vault-Tec has provided to reach this {QUEST} now.,有了{核子可乐量子}，你可以立刻抵达{任务}。{点击}这里使用避难所科技提供的{核子可乐量子}，现在就前往这个{任务}。,人工UI覆盖
+1398,Message_Tutorial_63_PC,With {NUKA-COLA QUANTUM} you can reach a {QUEST} instantly. {CLICK} here to use the {NUKA-COLA QUANTUM} Vault-Tec has provided to reach this {QUEST} now.,有了{核子可乐量子}，你可以立刻抵达{任务}。{点击}这里使用避难所科技提供的{核子可乐量子}，现在就前往这个{任务}。,人工UI覆盖
+1399,Message_Tutorial_63_Xbox,With {NUKA-COLA QUANTUM} you can reach a {QUEST} instantly. Select {REACH NOW} to use the {NUKA-COLA QUANTUM} Vault-Tec has provided.,通过{核子可乐量子}，您可以立即到达{任务}。选择{立即抵达}以使用Vault-Tec提供的{核子可乐量子}。,机翻+术语处理
+1400,Message_Tutorial_64,"You can also use {NUKA-COLA QUANTUM} to skip {OBJECTIVES} in the {VAULT} and to speed up {CRAFTING}, {TRAINING} and Barbershop {CUSTOMIZATION}.",你也可以用{核子可乐量子}跳过避难所里的{目标}，或加速{制作}、{训练}和理发店{定制}。,人工UI覆盖
+1401,Message_Tutorial_65,"{QUESTS} allow you to explore new locations, meet new {DWELLERS} and collect {LOOT}. The {MAP ICON} in the upper right corner will display your {QUEST OBJECTIVES}.",{任务}让你探索新地点、结识新{居民}并收集{战利品}。右上角的{地图图标}会显示你的{任务目标}。,人工UI覆盖
 1402,Message_Tutorial_66,Your Dweller(s) will automatically leave the Vault to begin the Quest.,你的居民将自动离开避难所开始任务。,机翻+术语处理
-1403,Message_Tutorial_67,"If you don't want any new Dwellers, you can {STOP} the {RADIO STUDIO} from calling out. It will still broadcast in the Vault and boost {HAPPINESS}.",如果你不需要任何新的居民，你可以{STOP}呼出{RADIO STUDIO}。仍将在避难所和增强{HAPPINESS}中播出。,机翻+术语处理
-1404,Message_Tutorial_68,"To assign a {DWELLER}, {TAP} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",将居民上的{DWELLER}、{TAP}和{HOLD}分配给房间，然后将它们{DRAG}分配到房间。尝试将此{DWELLER}分配给您刚刚建立的{POWER GENERATOR}房间。,机翻+术语处理
-1405,Message_Tutorial_68_PC,"To assign a {DWELLER}, {CLICK} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",将居民上的{DWELLER}、{CLICK}和{HOLD}分配给房间，然后将它们{DRAG}分配到房间。尝试将此{DWELLER}分配给您刚刚建立的{POWER GENERATOR}房间。,机翻+术语处理
-1406,Message_Tutorial_68_PS4,Use the {LEFT STICK} to {MOVE} the {DWELLER} to the {POWER ROOM} and press [A] to assign them to the room,使用{LEFT STICK}至{MOVE}、{DWELLER}至{POWER ROOM}，然后按[A]将它们分配给房间,机翻+术语处理
-1407,Message_Tutorial_68_Switch,Use the {LEFT STICK} to {MOVE} the {DWELLER} to the {POWER ROOM} and press [A] to assign them to the room,使用{LEFT STICK}至{MOVE}、{DWELLER}至{POWER ROOM}，然后按[A]将它们分配给房间,机翻+术语处理
-1408,Message_Tutorial_68_Xbox,Use the {LEFT STICK} to {MOVE} the {DWELLER} to the {POWER ROOM} and press [A] to assign them to the room,使用{LEFT STICK}至{MOVE}、{DWELLER}至{POWER ROOM}，然后按[A]将它们分配给房间,机翻+术语处理
-1409,Message_Tutorial_NoRoomDwellers,You just used the last available space for Dwellers in the Vault. Build more {LIVING QUARTERS} to accommodate more Dwellers.,您刚刚使用了避难所中居民的最后一个可用空间。建造更多的{LIVING QUARTERS}以容纳更多的居民。,机翻+术语处理
+1403,Message_Tutorial_67,"If you don't want any new Dwellers, you can {STOP} the {RADIO STUDIO} from calling out. It will still broadcast in the Vault and boost {HAPPINESS}.",如果你不想再要新居民，可以{停止}{广播室}的广播。它仍会在避难所内播放，并提高{幸福度}。,人工UI覆盖
+1404,Message_Tutorial_68,"To assign a {DWELLER}, {TAP} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",要指派{居民}，{点击}并{按住}居民，然后把他{拖动}到房间。试着把这个{居民}指派到你刚建好的{发电室}。,人工UI覆盖
+1405,Message_Tutorial_68_PC,"To assign a {DWELLER}, {CLICK} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",要指派{居民}，{点击}并{按住}居民，然后把他{拖动}到房间。试着把这个{居民}指派到你刚建好的{发电室}。,人工UI覆盖
+1406,Message_Tutorial_68_PS4,Use the {LEFT STICK} to {MOVE} the {DWELLER} to the {POWER ROOM} and press [A] to assign them to the room,使用{左摇杆}至{移动}、{居民}至{发电室}，然后按[A]将它们分配给房间,机翻+术语处理
+1407,Message_Tutorial_68_Switch,Use the {LEFT STICK} to {MOVE} the {DWELLER} to the {POWER ROOM} and press [A] to assign them to the room,使用{左摇杆}至{移动}、{居民}至{发电室}，然后按[A]将它们分配给房间,机翻+术语处理
+1408,Message_Tutorial_68_Xbox,Use the {LEFT STICK} to {MOVE} the {DWELLER} to the {POWER ROOM} and press [A] to assign them to the room,使用{左摇杆}至{移动}、{居民}至{发电室}，然后按[A]将它们分配给房间,机翻+术语处理
+1409,Message_Tutorial_NoRoomDwellers,You just used the last available space for Dwellers in the Vault. Build more {LIVING QUARTERS} to accommodate more Dwellers.,您刚刚使用了避难所中居民的最后一个可用空间。建造更多的{宿舍}以容纳更多的居民。,机翻+术语处理
 1410,Message_TutorialPopup_01_Body,"If you run low on any of these resources, the bars at the top of the screen will turn red.
 
 When low on Power, rooms will start shutting down.
@@ -12650,20 +12650,20 @@ Build an Ultracite Weapon Workshop to craft powerful Ultracite Weapons and defen
 
 建造Ultracite武器工坊来制造强大的Ultracite武器并保卫你的避难所。",机翻+术语处理
 11153,Message_TutorialPopup_BuildUltraciteWeaponFactory_Hint,Hint: Ultracite Weapons deal extra damage to Scorched.,提示：Ultracite武器会对烧焦造成额外的伤害。,机翻+术语处理
-11154,Message_Tutorial_SeasonIntroduction,Welcome to {SEASONS}! You can now complete {CHALLENGES} rank up your {SEASON PASS} to earn rewards throughout the lifespan of this {EXPERIMENTAL VAULT}.,欢迎来到{SEASONS}！您现在可以完成{CHALLENGES}提升您的{SEASON PASS}等级，从而在{EXPERIMENTAL VAULT}的整个生命周期中获得奖励。,机翻+术语处理
-11155,Message_Tutorial_SeasonOpenModal,"First, {SELECT} the {SEASON BUTTON}.",首先，{SELECT} {SEASON BUTTON}。,机翻+术语处理
-11156,Message_Tutorial_SeasonChallenges,Complete {CHALLENGES} to earn progress on your {SEASON PASS}. New Challenges are unlocked each week.,完成{CHALLENGES}即可获得{SEASON PASS}的进度。每周都会解锁新的挑战。,机翻+术语处理
-11157,Message_Tutorial_SeasonOpenBattlePass,"Now, {SELECT} the {SEASON PASS} tab.",现在，{SELECT} {SEASON PASS}选项卡。,机翻+术语处理
-11158,Message_Tutorial_SeasonBattlePass,Gaining {RANKS} in the {SEASON PASS} gives you {REWARDS} that can be claimed in each of your Vaults.,在{SEASON PASS}中获得{RANKS}会给你{REWARDS}，可以在你的每个避难所中获得。,机翻+术语处理
-11159,Message_Tutorial_SeasonUnlockBattlePass,{UPGRADE} the {SEASON PASS} for even better {REWARDS}!,{UPGRADE}{SEASON PASS}为了更好的{REWARDS}！,机翻+术语处理
-11160,Message_Tutorial_SeasonOpenLeaderboard,"Now, {SELECT} the {LEADERBOARD} tab.",现在，{SELECT} {LEADERBOARD}选项卡。,机翻+术语处理
-11161,Message_Tutorial_SeasonLeaderboard,Complete actions in your {EXPERIMENT VAULT} to earn {POINTS} and claim {REWARDS}. Challenge your {FRIENDS} to see who is the best {OVERSEER}!,完成{EXPERIMENT VAULT}中的行动即可获得{POINTS}并领取{REWARDS}。挑战你的{FRIENDS}，看看谁是最好的{OVERSEER}！,机翻+术语处理
-11162,Message_Tutorial_ScorchedTimerIntroduction,{SCORCHED RAIDS} will occur every few days. The {TIME} until the next {RAID} is shown in the top left.,{SCORCHED RAIDS}每隔几天就会发生一次。{TIME}直到下一个{RAID}显示在左上角。,机翻+术语处理
-11163,Message_Tutorial_ScorchedTimerOpen,{TAP} on the timer to see more details about the next {SCORCHED RAID}.,定时器上的{TAP}查看有关下一个{SCORCHED RAID}的更多详细信息。,机翻+术语处理
-11164,Message_Tutorial_ScorchedTimerOpen_PC,{CLICK} on the timer to see more details about the next {SCORCHED RAID}.,定时器上的{CLICK}查看有关下一个{SCORCHED RAID}的更多详细信息。,机翻+术语处理
-11165,Message_Tutorial_ScorchedTimerOpen_Xbox,{SELECT} the timer to see more details about the next {SCORCHED RAID}.,{SELECT}计时器查看下一个{SCORCHED RAID}的更多详细信息。,机翻+术语处理
-11166,Message_Tutorial_ScorchedEnemies,{SCORCHED RAIDS} will have more enemies and increase in {DIFFICULTY} as the season progresses.,随着赛季的进行，{SCORCHED RAIDS}将会有更多的敌人，并且{DIFFICULTY}也会增加。,机翻+术语处理
-11167,Message_Tutorial_ScorchedEarlyAttack,You can start a {SCORCHED RAID} early if there is less than {12 HOURS} remaining. But make sure you're prepared!,如果剩余数量少于{12 HOURS}，您可以提前开始{SCORCHED RAID}。但请确保您已做好准备！,机翻+术语处理
+11154,Message_Tutorial_SeasonIntroduction,Welcome to {SEASONS}! You can now complete {CHALLENGES} rank up your {SEASON PASS} to earn rewards throughout the lifespan of this {EXPERIMENTAL VAULT}.,欢迎来到{赛季}！您现在可以完成{挑战}提升您的{季票}等级，从而在{实验避难所}的整个生命周期中获得奖励。,机翻+术语处理
+11155,Message_Tutorial_SeasonOpenModal,"First, {SELECT} the {SEASON BUTTON}.",首先，{选择} {赛季按钮}。,机翻+术语处理
+11156,Message_Tutorial_SeasonChallenges,Complete {CHALLENGES} to earn progress on your {SEASON PASS}. New Challenges are unlocked each week.,完成{挑战}即可获得{季票}的进度。每周都会解锁新的挑战。,机翻+术语处理
+11157,Message_Tutorial_SeasonOpenBattlePass,"Now, {SELECT} the {SEASON PASS} tab.",现在，{选择} {季票}选项卡。,机翻+术语处理
+11158,Message_Tutorial_SeasonBattlePass,Gaining {RANKS} in the {SEASON PASS} gives you {REWARDS} that can be claimed in each of your Vaults.,在{季票}中获得{等级}会给你{奖励}，可以在你的每个避难所中获得。,机翻+术语处理
+11159,Message_Tutorial_SeasonUnlockBattlePass,{UPGRADE} the {SEASON PASS} for even better {REWARDS}!,{升级}{季票}为了更好的{奖励}！,机翻+术语处理
+11160,Message_Tutorial_SeasonOpenLeaderboard,"Now, {SELECT} the {LEADERBOARD} tab.",现在，{选择} {排行榜}选项卡。,机翻+术语处理
+11161,Message_Tutorial_SeasonLeaderboard,Complete actions in your {EXPERIMENT VAULT} to earn {POINTS} and claim {REWARDS}. Challenge your {FRIENDS} to see who is the best {OVERSEER}!,完成{实验避难所}中的行动即可获得{积分}并领取{奖励}。挑战你的{好友}，看看谁是最好的{监督者}！,机翻+术语处理
+11162,Message_Tutorial_ScorchedTimerIntroduction,{SCORCHED RAIDS} will occur every few days. The {TIME} until the next {RAID} is shown in the top left.,{焦灼突袭}每隔几天就会发生一次。{时间}直到下一个{突袭}显示在左上角。,机翻+术语处理
+11163,Message_Tutorial_ScorchedTimerOpen,{TAP} on the timer to see more details about the next {SCORCHED RAID}.,定时器上的{点击}查看有关下一个{焦灼突袭}的更多详细信息。,机翻+术语处理
+11164,Message_Tutorial_ScorchedTimerOpen_PC,{CLICK} on the timer to see more details about the next {SCORCHED RAID}.,定时器上的{点击}查看有关下一个{焦灼突袭}的更多详细信息。,机翻+术语处理
+11165,Message_Tutorial_ScorchedTimerOpen_Xbox,{SELECT} the timer to see more details about the next {SCORCHED RAID}.,{选择}计时器查看下一个{焦灼突袭}的更多详细信息。,机翻+术语处理
+11166,Message_Tutorial_ScorchedEnemies,{SCORCHED RAIDS} will have more enemies and increase in {DIFFICULTY} as the season progresses.,随着赛季的进行，{焦灼突袭}将会有更多的敌人，并且{难度}也会增加。,机翻+术语处理
+11167,Message_Tutorial_ScorchedEarlyAttack,You can start a {SCORCHED RAID} early if there is less than {12 HOURS} remaining. But make sure you're prepared!,如果剩余数量少于{12小时}，您可以提前开始{焦灼突袭}。但请确保您已做好准备！,机翻+术语处理
 11168,Message_Tutorial_ScorchedAttackFail,The Scorched beat all your dwellers. But you'll get another chance... and Vault-Tec's improved medical systems have revived everyone for free!,烧焦者击败了你所有的居民。但你还会再获得一次机会……而且避难所科技改进的医疗系统已经免费让所有人复活了！,机翻+术语处理
 11169,Message_ScorchedConfirmationPopup,This will start the Scorched raid early. Are you ready?,这将提前开始烧焦的突袭。你准备好了吗？,机翻+术语处理
 11170,Vaultboy_Message_ScorchedRaidSuccess,VICTORY! YOU FOUGHT THEM OFF!,胜利！你把他们击退了！,机翻+术语处理
@@ -12947,17 +12947,17 @@ Build an Ultracite Weapon Workshop to craft powerful Ultracite Weapons and defen
 11448,QuestLoc_S2_QL2_Q4_Roswell_Question1_Answer3,"I don't think the ""We come in peace"" routine will work, but hey, your call!",我不认为“我们和平而来”的惯例会起作用，但是嘿，你的决定！,机翻+术语处理
 11449,Theme_ShortName_Exterior,Exterior Theme,外观主题,机翻+术语处理
 11450,Theme_ShortName_Workshop,Workshop Theme,工作坊主题,机翻+术语处理
-11451,Message_Tutorial_UltraciteWeaponCraftingIntroduction,"Time to fight back against those {SCORCHED}! Now that we have some {ULTRACITE}, let's use it to craft some powerful new {WEAPONS}.",是时候反击那些{SCORCHED}！现在我们有了一些{ULTRACITE}，让我们用它来制作一些强大的新{WEAPONS}。,机翻+术语处理
-11452,Message_Tutorial_UltraciteWeaponCraftingAssignDweller,{ASSIGN} any Dweller to the {ULTRACITE WEAPON FACTORY}.,{ASSIGN} {ULTRACITE WEAPON FACTORY}的任何居民。,机翻+术语处理
-11453,Message_Tutorial_UltraciteWeaponCraftingDoubleTapRoom,Let's start crafting! {DOUBLE TAP} on the {ULTRACITE WEAPON FACTORY} to take a closer look.,让我们开始制作吧！{DOUBLE TAP}在{ULTRACITE WEAPON FACTORY}上仔细查看。,机翻+术语处理
-11454,Message_Tutorial_UltraciteWeaponCraftingDoubleTapRoom_PC,Let's start crafting! {DOUBLE CLICK} on the {ULTRACITE WEAPON FACTORY} to take a closer look.,让我们开始制作吧！{DOUBLE CLICK}在{ULTRACITE WEAPON FACTORY}上仔细查看。,机翻+术语处理
-11455,Message_Tutorial_UltraciteWeaponCraftingDoubleTapRoom_Xbox,Let's start crafting! {HOLD} [RT] on the {ULTRACITE WEAPON FACTORY} to take a closer look.,让我们开始制作吧！{HOLD} [RT]在{ULTRACITE WEAPON FACTORY}上仔细查看。,机翻+术语处理
-11456,Message_Tutorial_UltraciteWeaponCraftingCraftingMessage,{TAP} the {CRAFTING BUTTON} to {OPEN} the {CRAFTING MENU}.,{TAP} {CRAFTING BUTTON}至{OPEN} {CRAFTING MENU}。,机翻+术语处理
-11457,Message_Tutorial_UltraciteWeaponCraftingCraftingMessage_PC,{CLICK} the {CRAFTING BUTTON} to {OPEN} the {CRAFTING MENU}.,{CLICK} {CRAFTING BUTTON}至{OPEN} {CRAFTING MENU}。,机翻+术语处理
-11458,Message_Tutorial_UltraciteWeaponCraftingCraftingMessage_Xbox,Press [DU] to {OPEN} the {CRAFTING MENU}.,按[DU]到{OPEN}到{CRAFTING MENU}。,机翻+术语处理
-11459,Message_Tutorial_UltraciteWeaponCraftingConclusion,{TAP} an {ULTRACITE WEAPON} from the list to craft it. You can unlock new recipes by upgrading the {ULTRACITE WEAPON FACTORY}.,从列表中选择{TAP}和{ULTRACITE WEAPON}来制作它。您可以通过升级{ULTRACITE WEAPON FACTORY}来解锁新的食谱。,机翻+术语处理
-11460,Message_Tutorial_UltraciteWeaponCraftingConclusion_PC,{CLICK} an {ULTRACITE WEAPON} from the list to craft it. You can unlock new recipes by upgrading the {ULTRACITE WEAPON FACTORY}.,从列表中选择{CLICK}和{ULTRACITE WEAPON}来制作它。您可以通过升级{ULTRACITE WEAPON FACTORY}来解锁新的食谱。,机翻+术语处理
-11461,Message_Tutorial_UltraciteWeaponCraftingConclusion_Xbox,Use the {LEFT STICK} to {SELECT} an {ULTRACITE WEAPON} and {PRESS} [A] to craft it. You can unlock new recipes by upgrading the {ULTRACITE WEAPON FACTORY}.,使用{LEFT STICK}至{SELECT}、{ULTRACITE WEAPON}和{PRESS}[A]来制作它。您可以通过升级{ULTRACITE WEAPON FACTORY}来解锁新的食谱。,机翻+术语处理
+11451,Message_Tutorial_UltraciteWeaponCraftingIntroduction,"Time to fight back against those {SCORCHED}! Now that we have some {ULTRACITE}, let's use it to craft some powerful new {WEAPONS}.",是时候反击那些{焦灼者}！现在我们有了一些{超钙}，让我们用它来制作一些强大的新{武器}。,机翻+术语处理
+11452,Message_Tutorial_UltraciteWeaponCraftingAssignDweller,{ASSIGN} any Dweller to the {ULTRACITE WEAPON FACTORY}.,{指派} {超钙武器工厂}的任何居民。,机翻+术语处理
+11453,Message_Tutorial_UltraciteWeaponCraftingDoubleTapRoom,Let's start crafting! {DOUBLE TAP} on the {ULTRACITE WEAPON FACTORY} to take a closer look.,让我们开始制作吧！{双击}在{超钙武器工厂}上仔细查看。,机翻+术语处理
+11454,Message_Tutorial_UltraciteWeaponCraftingDoubleTapRoom_PC,Let's start crafting! {DOUBLE CLICK} on the {ULTRACITE WEAPON FACTORY} to take a closer look.,让我们开始制作吧！{双击}在{超钙武器工厂}上仔细查看。,机翻+术语处理
+11455,Message_Tutorial_UltraciteWeaponCraftingDoubleTapRoom_Xbox,Let's start crafting! {HOLD} [RT] on the {ULTRACITE WEAPON FACTORY} to take a closer look.,让我们开始制作吧！{按住} [RT]在{超钙武器工厂}上仔细查看。,机翻+术语处理
+11456,Message_Tutorial_UltraciteWeaponCraftingCraftingMessage,{TAP} the {CRAFTING BUTTON} to {OPEN} the {CRAFTING MENU}.,{点击} {制作按钮}至{打开} {制作菜单}。,机翻+术语处理
+11457,Message_Tutorial_UltraciteWeaponCraftingCraftingMessage_PC,{CLICK} the {CRAFTING BUTTON} to {OPEN} the {CRAFTING MENU}.,{点击} {制作按钮}至{打开} {制作菜单}。,机翻+术语处理
+11458,Message_Tutorial_UltraciteWeaponCraftingCraftingMessage_Xbox,Press [DU] to {OPEN} the {CRAFTING MENU}.,按[DU]到{打开}到{制作菜单}。,机翻+术语处理
+11459,Message_Tutorial_UltraciteWeaponCraftingConclusion,{TAP} an {ULTRACITE WEAPON} from the list to craft it. You can unlock new recipes by upgrading the {ULTRACITE WEAPON FACTORY}.,从列表中选择{点击}和{超钙武器}来制作它。您可以通过升级{超钙武器工厂}来解锁新的食谱。,机翻+术语处理
+11460,Message_Tutorial_UltraciteWeaponCraftingConclusion_PC,{CLICK} an {ULTRACITE WEAPON} from the list to craft it. You can unlock new recipes by upgrading the {ULTRACITE WEAPON FACTORY}.,从列表中选择{点击}和{超钙武器}来制作它。您可以通过升级{超钙武器工厂}来解锁新的食谱。,机翻+术语处理
+11461,Message_Tutorial_UltraciteWeaponCraftingConclusion_Xbox,Use the {LEFT STICK} to {SELECT} an {ULTRACITE WEAPON} and {PRESS} [A] to craft it. You can unlock new recipes by upgrading the {ULTRACITE WEAPON FACTORY}.,使用{左摇杆}至{选择}、{超钙武器}和{按下}[A]来制作它。您可以通过升级{超钙武器工厂}来解锁新的食谱。,机翻+术语处理
 11462,Wasteland_ExteriorName_Enclave,Enclave Mobile Base Crawler,英克雷移动基地爬行者,机翻+术语处理
 11463,Theme_Name_EnclaveCafeteria,Enclave Cafeteria,英克雷自助餐厅,机翻+术语处理
 11464,Theme_Name_EnclaveLivingQuarters,Enclave Living Quarters,英克雷宿舍,机翻+术语处理
@@ -13194,13 +13194,13 @@ Buy the Premium Pass for instant boosts to your vault, plus get exclusive reward
 11677,NewVegasA_Title,SHELTER SEASON: VIVA NEW VEGAS,庇护季节：新维加斯万岁,机翻+术语处理
 11678,Outfit_Description_HanksPowerArmor,"When you're important enough, you don't need to wear a helmet.",当你足够重要的时候，你就不需要戴头盔。,机翻+术语处理
 11679,Outfit_Name_HanksPowerArmor,Hank's Power Armor,汉克的动力装甲,机翻+术语处理
-11680,Message_Tutorial_ArrivalWidgetIntroduction,{SEASONAL DWELLERS} will arrive every few days. The {TIME} until the next {DWELLER} is shown in the top left.,{SEASONAL DWELLERS}每隔几天就会到达。{TIME}直到下一个{DWELLER}显示在左上角。,机翻+术语处理
-11681,Message_Tutorial_ArrivalWidgetOpenModal,{TAP} on the timer to see more details about the next {SEASONAL DWELLER}.,定时器上的{TAP}查看有关下一个{SEASONAL DWELLER}的更多详细信息。,机翻+术语处理
-11682,Message_Tutorial_ArrivalWidgetOpenModal_PC,{CLICK} on the timer to see more details about the next {SEASONAL DWELLER}.,定时器上的{CLICK}查看有关下一个{SEASONAL DWELLER}的更多详细信息。,机翻+术语处理
-11683,Message_Tutorial_ArrivalWidgetOpenModal_Xbox,{SELECT} the timer to see more details about the next {SEASONAL DWELLER}.,{SELECT}计时器查看下一个{SEASONAL DWELLER}的更多详细信息。,机翻+术语处理
-11684,Message_Tutorial_ArrivalWidgetRequirements,"In addition to the timer, you may also need to complete other prerequisites to claim the {SEASONAL DWELLER}.",除了计时器之外，您可能还需要完成其他先决条件才能领取{SEASONAL DWELLER}。,机翻+术语处理
-11685,Message_Tutorial_SeasonalQuestIntroduction,Congratulations - you just unlocked a {SEASONAL QUEST LINE}!,恭喜-您刚刚解锁了{SEASONAL QUEST LINE}！,机翻+术语处理
-11686,Message_Tutorial_SeasonalQuestOpenPipBoy,Open your {QUEST LIST} to access the new {QUEST}.,打开您的{QUEST LIST}以访问新的{QUEST}。,机翻+术语处理
+11680,Message_Tutorial_ArrivalWidgetIntroduction,{SEASONAL DWELLERS} will arrive every few days. The {TIME} until the next {DWELLER} is shown in the top left.,{赛季居民}每隔几天就会到达。{时间}直到下一个{居民}显示在左上角。,机翻+术语处理
+11681,Message_Tutorial_ArrivalWidgetOpenModal,{TAP} on the timer to see more details about the next {SEASONAL DWELLER}.,定时器上的{点击}查看有关下一个{赛季居民}的更多详细信息。,机翻+术语处理
+11682,Message_Tutorial_ArrivalWidgetOpenModal_PC,{CLICK} on the timer to see more details about the next {SEASONAL DWELLER}.,定时器上的{点击}查看有关下一个{赛季居民}的更多详细信息。,机翻+术语处理
+11683,Message_Tutorial_ArrivalWidgetOpenModal_Xbox,{SELECT} the timer to see more details about the next {SEASONAL DWELLER}.,{选择}计时器查看下一个{赛季居民}的更多详细信息。,机翻+术语处理
+11684,Message_Tutorial_ArrivalWidgetRequirements,"In addition to the timer, you may also need to complete other prerequisites to claim the {SEASONAL DWELLER}.",除了计时器之外，您可能还需要完成其他先决条件才能领取{赛季居民}。,机翻+术语处理
+11685,Message_Tutorial_SeasonalQuestIntroduction,Congratulations - you just unlocked a {SEASONAL QUEST LINE}!,恭喜-您刚刚解锁了{赛季任务线}！,机翻+术语处理
+11686,Message_Tutorial_SeasonalQuestOpenPipBoy,Open your {QUEST LIST} to access the new {QUEST}.,打开您的{任务列表}以访问新的{任务}。,机翻+术语处理
 11687,Weapon_Name_Cryolator,Cryolator,冷冻机,机翻+术语处理
 11688,Weapon_Description_Cryolator,One of the coolest weapons in the wasteland. Everyone will want to chill out with you.,废土中最酷的武器之一。每个人都会想和你一起放松一下。,机翻+术语处理
 11689,Weapon_Name_SuperSledge,Super Sledge,超级雪橇,机翻+术语处理
@@ -13276,7 +13276,7 @@ Buy the Premium Pass for instant boosts to your vault, plus get exclusive reward
 11759,QuestLoc_GoingToTown_4_Question5_Answer3,You must be joking. Inferior beings are meant to serve the strong. You'll see… some day…,你一定是在开玩笑。低等生物就是为强者服务的。你会看到……有一天……,机翻+术语处理
 11760,SeasonModal_Leaderboard_ScoreInfoPopup_CompleteQuests,Complete Quests,完成任务,机翻+术语处理
 11761,SeasonModal_Leaderboard_ScoreInfoPopup_PerformCriticalHits,Perform Critical Hits,进行致命一击,机翻+术语处理
-11762,Message_Tutorial_SeasonOpenLeaderboardInfoPanel,{TAP} the {INFO BUTTON} to learn how to increase your {VAULT SCORE}.,{TAP} {INFO BUTTON}了解如何增加你的{VAULT SCORE}。,机翻+术语处理
+11762,Message_Tutorial_SeasonOpenLeaderboardInfoPanel,{TAP} the {INFO BUTTON} to learn how to increase your {VAULT SCORE}.,{点击} {信息按钮}了解如何增加你的{避难所评分}。,机翻+术语处理
 11763,Victor_Name,Victor,胜利者,机翻+术语处理
 11764,Message_TooManyVictorInWasteland,You have already sent the maximum amount of Victors to the Wasteland,您已将最大数量的胜利者送往荒地,机翻+术语处理
 11765,Outfit_Name_LegatesArmor,Legate's Armor,使者的铠甲,机翻+术语处理
@@ -13614,13 +13614,13 @@ Reach Rank 20 on the premium track for an exclusive Lucky 38 Penthouse Living Qu
 12083,QuestLoc_NVB_QL2_Leftovers_4_Question8_Line2,<Seal all sites permanently>,<永久封锁所有站点>,机翻+术语处理
 12084,QuestLoc_NVB_QL2_Leftovers_4_Question8_Line3,"Only after we are out, right? RIGHT? Here goes nothing...",只有在我们出去之后，对吗？正确的？这里什么都没有...,机翻+术语处理
 12085,QuestLoc_NVB_QL2_Leftovers_QuestLineName,The Leftovers,剩菜剩饭,机翻+术语处理
-12086,Message_Tutorial_ArrivalWidgetReadyToClaim,Your new Dweller is here! {TAP} on their icon to recruit them.,你的新居民就在这里！在他们的图标上{TAP}来招募他们。,机翻+术语处理
-12087,Message_Tutorial_ArrivalWidgetReadyToClaim_PC,Your new Dweller is here! {CLICK} on their icon to recruit them.,你的新居民就在这里！在他们的图标上{CLICK}来招募他们。,机翻+术语处理
-12088,Message_Tutorial_ArrivalWidgetReadyToClaim_Xbox,Your new Dweller is here! {SELECT} their icon to recruit them.,你的新居民就在这里！{SELECT}他们的图标来招募他们。,机翻+术语处理
-12089,Message_Tutorial_ArrivalWidgetClaimDweller,{TAP} on the {CLAIM BUTTON} to recruit your new Dweller.,{TAP}在{CLAIM BUTTON}上招募你的新居民。,机翻+术语处理
-12090,Message_Tutorial_ArrivalWidgetClaimDweller_PC,{CLICK} on the {CLAIM BUTTON} to recruit your new Dweller.,{CLICK}在{CLAIM BUTTON}上招募你的新居民。,机翻+术语处理
-12091,Message_Tutorial_ArrivalWidgetClaimDweller_Xbox,{SELECT} the {CLAIM BUTTON} to recruit your new Dweller.,{SELECT} {CLAIM BUTTON}来招募你的新居民。,机翻+术语处理
-12092,Message_Tutorial_ArrivalWidgetHighlightDweller,Remember to {ASSIGN} your new Dweller to your Vault!,请记住将{ASSIGN}你的新居民改为你的避难所！,机翻+术语处理
+12086,Message_Tutorial_ArrivalWidgetReadyToClaim,Your new Dweller is here! {TAP} on their icon to recruit them.,你的新居民就在这里！在他们的图标上{点击}来招募他们。,机翻+术语处理
+12087,Message_Tutorial_ArrivalWidgetReadyToClaim_PC,Your new Dweller is here! {CLICK} on their icon to recruit them.,你的新居民就在这里！在他们的图标上{点击}来招募他们。,机翻+术语处理
+12088,Message_Tutorial_ArrivalWidgetReadyToClaim_Xbox,Your new Dweller is here! {SELECT} their icon to recruit them.,你的新居民就在这里！{选择}他们的图标来招募他们。,机翻+术语处理
+12089,Message_Tutorial_ArrivalWidgetClaimDweller,{TAP} on the {CLAIM BUTTON} to recruit your new Dweller.,{点击}在{领取按钮}上招募你的新居民。,机翻+术语处理
+12090,Message_Tutorial_ArrivalWidgetClaimDweller_PC,{CLICK} on the {CLAIM BUTTON} to recruit your new Dweller.,{点击}在{领取按钮}上招募你的新居民。,机翻+术语处理
+12091,Message_Tutorial_ArrivalWidgetClaimDweller_Xbox,{SELECT} the {CLAIM BUTTON} to recruit your new Dweller.,{选择} {领取按钮}来招募你的新居民。,机翻+术语处理
+12092,Message_Tutorial_ArrivalWidgetHighlightDweller,Remember to {ASSIGN} your new Dweller to your Vault!,请记住将{指派}你的新居民改为你的避难所！,机翻+术语处理
 12093,SeasonModal_Leaderboard_ScoreInfoPopup_ActionsList_NewVegasA,"• Build Rooms
 • Upgrade Rooms
 • Acquire Dwellers
@@ -14731,18 +14731,18 @@ Deposit Nuka Cola Quantum in current vault?","您的实验金库中未使用的�
 13156,QuestLoc_ENC_QL3_Escalation_4_Room4_Question_Line1_Answer3,Wargames. Mind games. GOLD GAMES. Does it mather? Your journey ends in the next room.,兵棋推演。智力游戏。黄金游戏。这有关系吗？您的旅程在下一个房间结束。,机翻+术语处理
 13157,QuestLoc_ENC_QL3_Escalation_4_Room5_Question_Line1,Gooooooooooold…,呜呜呜老了……,机翻+术语处理
 13158,QuestLoc_ENC_QL3_Escalation_4_Room5_Question_Line1_Choice0,"Woah, a real Enclave nuclear control center. And it's irradiated! GOLDAS ghoulified its own officers...",哇哦，一个真正的英克雷核控制中心。而且还被辐射了！GOLDAS屠杀了自己的军官……,机翻+术语处理
-13159,Message_Tutorial_SpinToWinIntroduction,Throughout the season you will be able to test your luck on the {SPIN-TO-WIN WHEEL} and win {AMAZING PRIZES}!,在整个赛季中，您将能够在{SPIN-TO-WIN WHEEL}上测试您的幸运并赢得{AMAZING PRIZES}！,机翻+术语处理
-13160,Message_Tutorial_SpinToWinOpenModal,{TAP} on the {WHEEL BUTTON} to open the {SPIN-TO-WIN WHEEL}.,{WHEEL BUTTON}上的{TAP}打开{SPIN-TO-WIN WHEEL}。,机翻+术语处理
-13161,Message_Tutorial_SpinToWinOpenModal_PC,{CLICK} on the {WHEEL BUTTON} to open the {SPIN-TO-WIN WHEEL}.,{WHEEL BUTTON}上的{CLICK}打开{SPIN-TO-WIN WHEEL}。,机翻+术语处理
-13162,Message_Tutorial_SpinToWinOpenModal_Xbox,{SELECT} the {WHEEL BUTTON} to open the {SPIN-TO-WIN WHEEL}.,{SELECT} {WHEEL BUTTON}打开{SPIN-TO-WIN WHEEL}。,机翻+术语处理
-13163,Message_Tutorial_SpinToWinHowToPlay,Spend a {TOKEN} to spin the Spin-to-Win wheel and win whatever {PRIZE} it lands on.,花费{TOKEN}旋转旋转获胜轮并赢得其落在的任何{PRIZE}。,机翻+术语处理
-13164,Message_Tutorial_SpinToWinSpin,{TAP} the button to SPIN! THAT! WHEEL!,{TAP}旋转按钮！那！车轮！,机翻+术语处理
-13165,Message_Tutorial_SpinToWinSpin_PC,{CLICK} the button to SPIN! THAT! WHEEL!,{CLICK}旋转按钮！那！车轮！,机翻+术语处理
-13166,Message_Tutorial_SpinToWinSpin_Xbox,{SELECT} the button to SPIN! THAT! WHEEL!,{SELECT}旋转按钮！那！车轮！,机翻+术语处理
-13167,Message_Tutorial_SpinToWinConclusion,"Earn more {TOKENS} by logging in each day, watching video ads, and completing seasonal quests. The {PRIZES} change each day, so make sure to check back often for your next chance to win big!",通过每天登录、观看视频广告和完成季节性任务来赚取更多{TOKENS}。{PRIZES}每天都会发生变化，因此请务必经常回来查看，以便您下次有机会赢得大奖！,机翻+术语处理
-13168,Message_Tutorial_SpinToWinConclusion_PC,"Earn more {TOKENS} by logging in each day, and completing seasonal quests. The {PRIZES} change each day, so make sure to check back often for your next chance to win big!",通过每天登录并完成季节性任务来赚取更多{TOKENS}。{PRIZES}每天都会发生变化，因此请务必经常回来查看，以便您下次有机会赢得大奖！,机翻+术语处理
-13169,Message_Tutorial_SpinToWinConclusion_Xbox,"Earn more {TOKENS} by logging in each day, and completing seasonal quests. The {PRIZES} change each day, so make sure to check back often for your next chance to win big!",通过每天登录并完成季节性任务来赚取更多{TOKENS}。{PRIZES}每天都会发生变化，因此请务必经常回来查看，以便您下次有机会赢得大奖！,机翻+术语处理
-13170,Message_Tutorial_SeasonalQuestDetails,Complete {SEASONAL QUESTS} to earn additional {TOKENS} and recruit more {SEASONAL DWELLERS}.,完成{SEASONAL QUESTS}即可赚取额外的{TOKENS}并招募更多{SEASONAL DWELLERS}。,机翻+术语处理
+13159,Message_Tutorial_SpinToWinIntroduction,Throughout the season you will be able to test your luck on the {SPIN-TO-WIN WHEEL} and win {AMAZING PRIZES}!,在整个赛季中，您将能够在{幸运转盘}上测试您的幸运并赢得{丰厚奖品}！,机翻+术语处理
+13160,Message_Tutorial_SpinToWinOpenModal,{TAP} on the {WHEEL BUTTON} to open the {SPIN-TO-WIN WHEEL}.,{转盘按钮}上的{点击}打开{幸运转盘}。,机翻+术语处理
+13161,Message_Tutorial_SpinToWinOpenModal_PC,{CLICK} on the {WHEEL BUTTON} to open the {SPIN-TO-WIN WHEEL}.,{转盘按钮}上的{点击}打开{幸运转盘}。,机翻+术语处理
+13162,Message_Tutorial_SpinToWinOpenModal_Xbox,{SELECT} the {WHEEL BUTTON} to open the {SPIN-TO-WIN WHEEL}.,{选择} {转盘按钮}打开{幸运转盘}。,机翻+术语处理
+13163,Message_Tutorial_SpinToWinHowToPlay,Spend a {TOKEN} to spin the Spin-to-Win wheel and win whatever {PRIZE} it lands on.,花费{代币}旋转旋转获胜轮并赢得其落在的任何{奖品}。,机翻+术语处理
+13164,Message_Tutorial_SpinToWinSpin,{TAP} the button to SPIN! THAT! WHEEL!,{点击}旋转按钮！那！车轮！,机翻+术语处理
+13165,Message_Tutorial_SpinToWinSpin_PC,{CLICK} the button to SPIN! THAT! WHEEL!,{点击}旋转按钮！那！车轮！,机翻+术语处理
+13166,Message_Tutorial_SpinToWinSpin_Xbox,{SELECT} the button to SPIN! THAT! WHEEL!,{选择}旋转按钮！那！车轮！,机翻+术语处理
+13167,Message_Tutorial_SpinToWinConclusion,"Earn more {TOKENS} by logging in each day, watching video ads, and completing seasonal quests. The {PRIZES} change each day, so make sure to check back often for your next chance to win big!",通过每天登录、观看视频广告和完成季节性任务来赚取更多{代币}。{奖品}每天都会发生变化，因此请务必经常回来查看，以便您下次有机会赢得大奖！,机翻+术语处理
+13168,Message_Tutorial_SpinToWinConclusion_PC,"Earn more {TOKENS} by logging in each day, and completing seasonal quests. The {PRIZES} change each day, so make sure to check back often for your next chance to win big!",通过每天登录并完成季节性任务来赚取更多{代币}。{奖品}每天都会发生变化，因此请务必经常回来查看，以便您下次有机会赢得大奖！,机翻+术语处理
+13169,Message_Tutorial_SpinToWinConclusion_Xbox,"Earn more {TOKENS} by logging in each day, and completing seasonal quests. The {PRIZES} change each day, so make sure to check back often for your next chance to win big!",通过每天登录并完成季节性任务来赚取更多{代币}。{奖品}每天都会发生变化，因此请务必经常回来查看，以便您下次有机会赢得大奖！,机翻+术语处理
+13170,Message_Tutorial_SeasonalQuestDetails,Complete {SEASONAL QUESTS} to earn additional {TOKENS} and recruit more {SEASONAL DWELLERS}.,完成{赛季任务}即可赚取额外的{代币}并招募更多{赛季居民}。,机翻+术语处理
 13171,SpinToWin_FreeChip,FREE TOKEN IN,免费代币,人工UI覆盖
 13172,SpinToWin_Info_Heading,Earn tokens by:,通过以下方式赚取代币：,机翻+术语处理
 13173,SpinToWin_Title_Enclave,CAPITALIST SPIN,资本家轮盘,人工UI覆盖
@@ -14799,7 +14799,7 @@ Upgrade your Workshops to craft Rare and Legendary items.","在午餐盒和废�
 13198,Weapon_Description_EnclavePlasmaRifle,"For those that prefer a sleeker, blacker look when gooifying their opponents.",适合那些在迷惑对手时喜欢更时尚、更黑的外观的人。,机翻+术语处理
 13199,Outfit_Name_OrionsExplorerGear,Orion's Explorer Gear,猎户座探索者装备,机翻+术语处理
 13200,Outfit_Description_OrionsExplorerGear,There is nothing like bandoliers and heavy leather to inspire politeness toward an old man.,没有什么比弹带和厚重的皮革更能激发对老人的礼貌了。,机翻+术语处理
-13201,Message_Tutorial_ArrivalWidgetBuildOverseerRoom,Each {SEASONAL DWELLER} will also unlock a new {QUEST LINE}. Unlock and build an {OVERSEER's OFFICE} to recruit your new Dweller!,每个{SEASONAL DWELLER}还将解锁一个新的{QUEST LINE}。解锁并建造一个{OVERSEER's OFFICE}来招募你的新居民！,机翻+术语处理
+13201,Message_Tutorial_ArrivalWidgetBuildOverseerRoom,Each {SEASONAL DWELLER} will also unlock a new {QUEST LINE}. Unlock and build an {OVERSEER's OFFICE} to recruit your new Dweller!,每个{赛季居民}还将解锁一个新的{任务线}。解锁并建造一个{监督者办公室}来招募你的新居民！,机翻+术语处理
 13202,CloudSaveNotEnabledWarning,Cloud save is not currently enabled. Do you wish to proceed?,目前未启用云保存。您想继续吗？,机翻+术语处理
 13203,VaultTecWindow_Explanation_ExVault,1 TOKEN to spin the Spin-to-Win wheel!,1个代币用于旋转旋转赢奖轮！,机翻+术语处理
 13204,Wasteland_ExteriorName_Concord,Concord,和睦,机翻+术语处理
