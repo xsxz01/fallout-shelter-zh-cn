@@ -17,6 +17,8 @@
 
 ### 使用编辑器
 
+双击 `启动编辑器.bat`，或：
+
 ```bash
 python localization_gui.py
 ```
