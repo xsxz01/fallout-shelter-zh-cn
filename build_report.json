@@ -13,13 +13,10 @@
  ],
  "font_data": "simhei_fixed.ttf",
  "custom_fonts": "cleared",
- "overrides": 287,
- "unused_overrides": [
-  "Message_Tutorial_53_PC"
- ],
- "bundle_bytes": 494352851,
- "seconds": 51.0,
- "md5": "f5dcdc160b6d36d1efa82bf832dd7880",
- "version": "1.2.0",
- "brace_fix": true
+ "overrides": 291,
+ "unused_overrides": [],
+ "bundle_bytes": 494351271,
+ "seconds": 51.2,
+ "md5": "8e3e4142aad2ea3c6b360de276309e51",
+ "version": "1.2.1"
 }

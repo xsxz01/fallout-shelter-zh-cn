@@ -189,10 +189,10 @@
 188,Controls_Title,CONTROLS,控制装置,机翻+术语处理
 189,Controls_Xbox_Footer_Collect,COLLECT,收集,机翻+术语处理
 190,Controls_Xbox_Footer_Filter,FILTER,筛选,机翻+术语处理
-191,Controls_Xbox_Footer_FilterSpecial,FILTER / CHANGE SPECIAL SORTING,过滤/更改SPECIAL排序,机翻+术语处理
+191,Controls_Xbox_Footer_FilterSpecial,FILTER / CHANGE SPECIAL SORTING,过滤/更改特别排序,机翻+术语处理
 192,Controls_Xbox_Footer_Rename,RENAME,重命名,机翻+术语处理
 193,Controls_Xbox_Footer_ReverseOrder,REVERSE ORDER,倒序,机翻+术语处理
-194,Controls_Xbox_Footer_Special,CHANGE SPECIAL SORTING,更改SPECIAL排序,机翻+术语处理
+194,Controls_Xbox_Footer_Special,CHANGE SPECIAL SORTING,更改特别排序,机翻+术语处理
 195,Controls_Xbox_Quest_Collect,Collect,收集,机翻+术语处理
 196,Controls_Xbox_Quest_CriticalHit,Critical Hit (Hold),暴击（按住）,人工UI覆盖
 197,Controls_Xbox_Quest_MoveCamera,Move Camera,移动相机,机翻+术语处理
@@ -950,7 +950,7 @@ I (ntelligence)
 A (gility)
 L (uck) 
 
-Every room in the Vault is linked to one of the SPECIAL stats. The better the Dweller's stat is for that room, the more they influence the room's effects.","每个居民都有名为SPECIAL
+Every room in the Vault is linked to one of the SPECIAL stats. The better the Dweller's stat is for that room, the more they influence the room's effects.","每个居民都有名为特别
 
 S（力量）
 P（感知）
@@ -960,8 +960,8 @@ I（智力）
 A（敏捷）
 L（uck）的统计数据
 
-避难所中的每个房间都与SPECIAL统计数据之一相关联。该房间的居民统计数据越好，它们对房间效果的影响就越大。",机翻+术语处理
-931,Help_Page02_Title,DWELLERS SPECIAL,居民SPECIAL,机翻+术语处理
+避难所中的每个房间都与特殊属性之一相关联。该房间的居民统计数据越好，它们对房间效果的影响就越大。",机翻+术语处理
+931,Help_Page02_Title,DWELLERS SPECIAL,居民特殊属性,机翻+术语处理
 932,Help_Page03_BottomText,Hint: Find RARE and LEGENDARY Dwellers in Lunchboxes.,提示：在午餐盒中找到稀有和传说居民。,机翻+术语处理
 933,Help_Page03_MainText,"LEVEL
 
@@ -989,11 +989,11 @@ There are three types of rarity of Dwellers, COMMON, RARE, and LEGENDARY.
 
 居民有三种稀有度，普通、稀有和传说。
 
--普通：低等级和SPECIAL统计数据
+-普通：低等级和特殊属性
 
--稀有：平均水平和SPECIAL统计数据
+-稀有：平均水平和特殊属性
 
--传说：高水平和SPECIAL统计数据",机翻+术语处理
+-传说：高水平和特殊属性",机翻+术语处理
 934,Help_Page03_Title,DWELLERS LEVEL & RARITY,居民等级和稀有度,机翻+术语处理
 935,Help_Page04_BottomText,"Hint: The higher the Dweller's level, the more CAPS their revival will cost.",提示：居民的等级越高，他们的复活花费的瓶盖就越多。,机翻+术语处理
 936,Help_Page04_MainText,"A Dweller dies when their health is depleted.
@@ -1276,9 +1276,9 @@ Luck: Game Room
 
 You can raise each stat up to 10.
 
-The higher the SPECIAL stat of a Dweller is, the longer it takes them to train to the next level, but you can use Nuka-Cola Quantum to speed up the training time.","将居民放入训练室将增加他们的SPECIAL属性。
+The higher the SPECIAL stat of a Dweller is, the longer it takes them to train to the next level, but you can use Nuka-Cola Quantum to speed up the training time.","将居民放入训练室将增加他们的特殊属性。
 
-每个SPECIAL属性都有一个训练室。
+每个特殊属性都有一个训练室。
 
 力量：举重室
 感知：军械库
@@ -1290,7 +1290,7 @@ The higher the SPECIAL stat of a Dweller is, the longer it takes them to train t
 
 您可以将每个统计数据提高到10.
 
-居民的SPECIAL属性越高，他们训练到下一级别所需的时间就越长，但你可以使用核子可乐量子来加快训练时间。",机翻+术语处理
+居民的特殊属性越高，他们训练到下一级别所需的时间就越长，但你可以使用核子可乐量子来加快训练时间。",机翻+术语处理
 964,Help_Page11_Title,TRAINING ROOMS,训练室,机翻+术语处理
 965,Help_Page12_BottomText,Hint: Merging the Radio Room increases your chances of attracting a Dweller.,提示：合并广播室会增加吸引居民的机会。,机翻+术语处理
 966,Help_Page12_MainText,"The Radio Room attracts new Dwellers from the Wasteland.
@@ -1398,7 +1398,7 @@ Out there they will find CAPS, earn Experience, and bring back Weapons, Outfits 
 
 -居民如果无法携带，会自动从废土返回任何更多项目。废土中的
 
--居民可能会偶然发现SPECIAL位置。点击感叹号图标可以选择进入此位置还是继续探索废土。",机翻+术语处理
+-居民可能会偶然发现特别位置。点击感叹号图标可以选择进入此位置还是继续探索废土。",机翻+术语处理
 976,Help_Page15_MainText_PC,"Dispatch your Dwellers to scavenge the Wasteland. 
 
 Out there they will find CAPS, earn Experience, and bring back Weapons, Outfits and Junk. The further out they go, the better the rewards they'll find, but the harder the encounters will become.
@@ -1427,7 +1427,7 @@ Out there they will find CAPS, earn Experience, and bring back Weapons, Outfits 
 
 -居民如果无法携带，会自动从废土返回任何更多项目。废土中的
 
--居民可能会偶然发现SPECIAL位置。单击感叹号图标可选择进入此位置还是继续探索废土。",机翻+术语处理
+-居民可能会偶然发现特别位置。单击感叹号图标可选择进入此位置还是继续探索废土。",机翻+术语处理
 977,Help_Page15_MainText_Xbox,"Dispatch your Dwellers to scavenge the Wasteland. 
 
 Out there they will find CAPS, earn Experience, and bring back Weapons, Outfits and Junk. The further out they go, the better the rewards they'll find, but the harder the encounters will become.
@@ -1456,7 +1456,7 @@ Out there they will find CAPS, earn Experience, and bring back Weapons, Outfits 
 
 -居民如果他们不能返回，会自动从废土返回携带更多物品。废土中的
 
--居民可能会偶然发现SPECIAL位置。按[RB]选择进入此位置还是继续探索废土。",机翻+术语处理
+-居民可能会偶然发现特别位置。按[RB]选择进入此位置还是继续探索废土。",机翻+术语处理
 978,Help_Page15_Title,THE WASTELAND,废土,机翻+术语处理
 979,Help_Page16_BottomText,Hint: Rare and Legendary Dwellers can be found in Lunchboxes and have great stats.,提示：稀有和传说居民可以在午餐盒中找到，并且具有出色的统计数据。,机翻+术语处理
 980,Help_Page16_MainText,"Fast-track your progress with Vault-Tec's amazing Lunchboxes.
@@ -1678,9 +1678,9 @@ The Dweller's effect on that room will go up or down whatever the number is.
 
 When a Dweller is replaced this way, they switch jobs with the Dweller being moved.
 
-If there is no plus or minus sign it means there's room for the Dweller to work in the room without replacing any Dwellers.","当您将居民拖入房间时，其头顶上方会出现一个SPECIAL字母和一个数字。
+If there is no plus or minus sign it means there's room for the Dweller to work in the room without replacing any Dwellers.","当您将居民拖入房间时，其头顶上方会出现一个特殊属性字母和一个数字。
 
-头顶字母对应于与该房间关联的SPECIAL统计信息。
+头顶字母对应于与该房间关联的特殊属性。
 
 如果列出的数字带有加号或减号，则意味着将居民拖入该房间将替换居民
 
@@ -1728,9 +1728,9 @@ When a Dweller is replaced this way, they switch jobs with the Dweller being mov
 
 If there is no plus or minus sign it means there's room for the Dweller to work in the room without replacing any Dwellers.","要将居民分配给房间，请先选择它们，按住[A]抓住它们，然后选择一个房间。
 
-当房间突出显示时，居民的头部上方会出现一个带有数字的SPECIAL字母。
+当房间突出显示时，居民的头部上方会出现一个带有数字的特殊属性字母。
 
-头部上方的字母对应于与该房间关联的SPECIAL统计信息
+头部上方的字母对应于与该房间关联的特殊属性
 
 如果列出的数字带有加号或减号，则意味着将居民分配给该房间将替换当前在那里工作的居民。
 
@@ -1740,7 +1740,7 @@ If there is no plus or minus sign it means there's room for the Dweller to work 
 
 如果没有加号或减号，则意味着居民可以在房间内工作，而无需更换任何居民。",机翻+术语处理
 1000,Help_Page20_Title,ASSIGNING DWELLERS,分配居民,机翻+术语处理
-1001,Help_Page21_BottomText,Hint: Outfits boost a Dweller's SPECIAL stats. Blue bars on a Dweller's SPECIAL shows how the Outfit benefits the Dweller.,提示：服装可以提高居民的SPECIAL统计数据。居民的SPECIAL上的蓝色条显示该服装如何使居民受益。,机翻+术语处理
+1001,Help_Page21_BottomText,Hint: Outfits boost a Dweller's SPECIAL stats. Blue bars on a Dweller's SPECIAL shows how the Outfit benefits the Dweller.,提示：服装可以提高居民的特殊属性。居民的特殊属性上的蓝色条显示该服装如何使居民受益。,机翻+术语处理
 1002,Help_Page21_MainText,"When you tap on a Dweller, it brings up their information.
 
 From this page, you can equip your Dweller with Weapons,Outfits and a Pet, or heal them with Stimpaks and RadAway.
@@ -1749,7 +1749,7 @@ Tapping on their SPECIAL brings up more detailed information about their individ
 
 在此页面中，你可以为你的居民装备武器、服装和宠物，或用治疗针和消辐宁治愈他们。
 
-点击他们的SPECIAL会显示有关他们个人SPECIAL等级的更多详细信息。",机翻+术语处理
+点击他们的特殊属性会显示有关他们个人特殊属性等级的更多详细信息。",机翻+术语处理
 1003,Help_Page21_MainText_PC,"When you click on a Dweller, it brings up their information.
 
 From this page, you can equip your Dweller with Weapons, Outfits and a Pet, or heal them with Stimpaks and RadAway.
@@ -1758,7 +1758,7 @@ Clicking on their SPECIAL brings up more detailed information about their indivi
 
 在此页面中，你可以为你的居民装备武器、服装和宠物，或用治疗针和消辐宁治疗他们。
 
-单击他们的SPECIAL会显示有关他们个人SPECIAL等级的更多详细信息。",机翻+术语处理
+单击他们的特殊属性会显示有关他们个人特殊属性等级的更多详细信息。",机翻+术语处理
 1004,Help_Page21_MainText_PS4,"When you select a Dweller, it brings up their information.
 
 From this page, you can equip your Dweller with Weapons, Outfits and a Pet, or heal them with Stimpaks and RadAway.
@@ -1767,7 +1767,7 @@ Pressing R3 brings up more detailed information about their individual SPECIAL l
 
 在此页面中，您可以为居民装备武器、服装和宠物，或使用治疗针和消辐宁治愈他们。
 
-按R3会显示有关其个人SPECIAL等级的更多详细信息。",机翻+术语处理
+按R3会显示有关其个人特殊属性等级的更多详细信息。",机翻+术语处理
 1005,Help_Page21_MainText_Switch,"When you select a Dweller, it brings up their information.
 
 From this page, you can equip your Dweller with Weapons, Outfits and a Pet, or heal them with Stimpaks and RadAway.
@@ -1776,7 +1776,7 @@ Pressing the Right Stick brings up more detailed information about their individ
 
 在此页面中，您可以为居民装备武器、服装和宠物，或使用治疗针和消辐宁治愈他们。
 
-按下右摇杆会显示有关其个人SPECIAL等级的更多详细信息。",机翻+术语处理
+按下右摇杆会显示有关其个人特殊属性等级的更多详细信息。",机翻+术语处理
 1006,Help_Page21_MainText_Xbox,"When you select a Dweller, it brings up their information.
 
 From this page, you can equip your Dweller with Weapons, Outfits and a Pet, or heal them with Stimpaks and RadAway.
@@ -1785,7 +1785,7 @@ Clicking the Right Stick brings up more detailed information about their individ
 
 在此页面中，您可以为居民装备武器、服装和宠物，或使用治疗针和消辐宁治愈他们。
 
-单击右摇杆会显示有关其个人SPECIAL等级的更多详细信息。",机翻+术语处理
+单击右摇杆会显示有关其个人特殊属性等级的更多详细信息。",机翻+术语处理
 1007,Help_Page21_Title,DWELLER INFO,居民信息,机翻+术语处理
 1008,Help_Page22_BottomText,"Hint: Use this menu to quickly see how many Dwellers you have, and how much more room you have in your Vault.",提示：使用此菜单可以快速查看您有多少个居民，以及您的避难所中还有多少空间。,机翻+术语处理
 1009,Help_Page22_MainText,"Tapping on the gear in the top left corner of the screen brings up the Dweller List.
@@ -2417,14 +2417,14 @@ Refund: {0} CAPS","你真的想毁掉这个房间吗？
 1208,Message_DwellersWaiting,There are too many Dwellers in the waiting line.,等待队列中的居民人数过多。,机翻+术语处理
 1209,Message_EvictDweller,Do you really want to evict the Dweller?,你真的想驱逐居民吗？,机翻+术语处理
 1210,Message_ExperimentalVaultWarning,Experimental Vaults are challenging! Vault-Tec recommends first-time Overseers recruit {0} Dwellers in a Standard Vault before taking on the experiment.,实验避难所具有挑战性！避难所科技建议初次监督者在进行实验之前以标准避难所招募{0}居民。,机翻+术语处理
-1211,Message_GenericPopup_Body,Vault-Tec has provided all Overseers with some special rewards!,避难所科技为所有督军提供了一些SPECIAL奖励！,机翻+术语处理
+1211,Message_GenericPopup_Body,Vault-Tec has provided all Overseers with some special rewards!,避难所科技为所有督军提供了一些特别奖励！,机翻+术语处理
 1212,Message_GenericPopup_Title,Vault-Tec Priority Alert!,避难所科技优先警报！,机翻+术语处理
 1213,Message_GoToQuestSkipNukaQuantum,Instantly start the Quest for {0} Nuka-Cola Quantum?,立即开始寻找{0}核子可乐量子？,机翻+术语处理
 1214,Message_IncompatibleJoystick,"Your controller might not be supported.  If you experience problems, please unplug it.",您的控制器可能不受支持。如果遇到问题，请拔掉电源插头。,机翻+术语处理
 1215,Message_Intro_01,Congratulations! Vault-Tec has selected you to be the Overseer of Vault [XXX].,恭喜！避难所科技已选择你作为避难所[XXX]的监督者。,机翻+术语处理
 1216,Message_Intro_02,The Vault keeps people safe from the dangers of the Wasteland.,避难所使人们免受废土的危险。,机翻+术语处理
 1217,Message_Intro_03,"As Overseer, your job is to expand and maintain the Vault, while keeping your Dwellers safe and happy.",作为监督者，你的工作是扩展和维护避难所，同时保证你的居民安全和快乐。,机翻+术语处理
-1218,Message_Intro_04,Each room has a SPECIAL attribute it uses. Assign Dwellers with the best SPECIAL to make them happy and produce extra Resources.,每个房间都有一个它使用的SPECIAL属性。将居民分配给最好的SPECIAL，让他们高兴并产生额外的资源。,机翻+术语处理
+1218,Message_Intro_04,Each room has a SPECIAL attribute it uses. Assign Dwellers with the best SPECIAL to make them happy and produce extra Resources.,每个房间都有一个它使用的特殊属性。将居民分配给最好的特殊属性，让他们高兴并产生额外的资源。,机翻+术语处理
 1219,Message_Intro_05,"Vault-Tec will give you a daily rating based on your performance. Remember to keep your Dwellers happy, and do a great job!",避难所科技将根据您的表现给予您每日评级。记住让你的居民开心，并做得很好！,机翻+术语处理
 1220,Message_InventoryFailure,"There was a problem retrieving your item list, please try again later.",检索您的商品列表时出现问题，请稍后重试。,机翻+术语处理
 1221,Message_LivingQuarters_Full,The Vault is full of Dwellers. Build more Living Quarters.,避难所充满了居民。建造更多宿舍。,机翻+术语处理
@@ -2448,7 +2448,7 @@ And don't forget to come back tomorrow for another special reward!","我们共�
 
 超过1亿监督者创建了他们自己独特的辐射避难所！
 请享受这份免费礼物，就像避难所科技表达的方式...谢谢！
-别忘了明天再来领取另一个SPECIAL奖励！",机翻+术语处理
+别忘了明天再来领取另一个特别奖励！",机翻+术语处理
 1235,Message_OneHundredMillionPopup_Body2,"Together, we have achieved a major milestone:
 
 Over 100 Million Overseers have created their own unique Fallout Shelter!
@@ -2529,7 +2529,7 @@ Items can be redeemed at any time.","前往商店[ffff00]兑换[-]。
 1304,Message_Tutorial_07_PS4,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{居民}的{属性}。{移动}到{废土}，用左摇杆到{选择}第一个{居民}。,机翻+术语处理
 1305,Message_Tutorial_07_Switch,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{居民}的{属性}。{移动}到{废土}，用左摇杆到{选择}第一个{居民}。,机翻+术语处理
 1306,Message_Tutorial_07_Xbox,Let's look at the {STATS} of a {DWELLER}. {MOVE} to the {WASTELAND} with the Left Stick to {SELECT} the first {DWELLER}.,让我们看一下{居民}的{属性}。{移动}到{废土}，用左摇杆到{选择}第一个{居民}。,机翻+术语处理
-1307,Message_Tutorial_08,You can see the {DWELLER'S SPECIAL} stats. This info tells you where a {DWELLER} can be used most effectively.,你可以看到{居民的SPECIAL}属性。这些信息能告诉你一个{居民}最适合做什么。,人工UI覆盖
+1307,Message_Tutorial_08,You can see the {DWELLER'S SPECIAL} stats. This info tells you where a {DWELLER} can be used most effectively.,你可以看到{居民的特殊属性}。这些信息能告诉你一个{居民}最适合做什么。,人工UI覆盖
 1308,Message_Tutorial_09,"To assign a {DWELLER}, {TAP} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",要指派{居民}，{点击}并{按住}居民，然后把他{拖动}到房间。试着把这个{居民}指派到你刚建好的{发电室}。,人工UI覆盖
 1309,Message_Tutorial_09_PC,"To assign a {DWELLER}, {CLICK} and {HOLD} on the Dweller and then {DRAG} them to a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",要指派{居民}，{点击}并{按住}居民，然后把他{拖动}到房间。试着把这个{居民}指派到你刚建好的{发电室}。,人工UI覆盖
 1310,Message_Tutorial_09_Xbox,"To assign a {SELECTED DWELLER}, {HOLD} [A] to grab them and then {SELECT} a room. Try assigning this {DWELLER} to the {POWER GENERATOR} room you just built.",分配{选中的居民}、{按住}[A]来抢他们，然后{选择}一个房间。尝试将此{居民}分配给您刚刚建立的{发电室}房间。,机翻+术语处理
@@ -2554,7 +2554,7 @@ Items can be redeemed at any time.","前往商店[ffff00]兑换[-]。
 1329,Message_Tutorial_20,"Send {DWELLERS} to the {WASTELAND} to collect {CAPS}, {OUTFITS} and {WEAPONS}.",派{居民}去{废土}收集{瓶盖}、{服装}和{武器}。,人工UI覆盖
 1330,Message_Tutorial_21,The {RADIO STUDIO} attracts Dwellers from the Wasteland and boosts {DWELLER HAPPINESS} in the Vault.,{广播室}会吸引废土上的居民，并提高避难所内的{居民幸福度}。,人工UI覆盖
 1331,Message_Tutorial_22,Here you can see and manage all the {WEAPONS} and {OUTFITS} you currently own.,在这里你可以查看并管理当前拥有的所有{武器}和{服装}。,人工UI覆盖
-1332,Message_Tutorial_23,{TRAIN} your Dwellers to {INCREASE} their {SPECIAL} stats.,{训练}你的居民以提高他们的{SPECIAL}属性。,人工UI覆盖
+1332,Message_Tutorial_23,{TRAIN} your Dwellers to {INCREASE} their {SPECIAL} stats.,{训练}你的居民以提高他们的{特殊属性}。,人工UI覆盖
 1333,Message_Tutorial_24,{MALE} and {FEMALE} Dwellers within the {LIVING QUARTERS} have a chance of making {BABIES}.,{宿舍}里的{男性}和{女性}居民有机会生下{婴儿}。,人工UI覆盖
 1334,Message_Tutorial_25,{DESTROY ROCKS} to {EXPAND} your {VAULT} deeper.,{清除岩石}来{扩展}你的{避难所}，向更深处建造。,人工UI覆盖
 1335,Message_Tutorial_26,{STORAGE} Rooms expand your {VAULT INVENTORY}.,{储藏室}可以扩大你的{避难所库存}。,人工UI覆盖
@@ -2717,7 +2717,7 @@ Select the boxes icon in the Pip-Boy to see your stored items.","您的金库存
 1464,Message_TutorialPopup_15_Body_Xbox,You can equip items and weapons and use RadAway and Stimpaks from the Dweller information panel by selecting a Dweller.,您可以通过选择居民来装备物品和武器，并从居民信息面板中使用消辐宁和Stimpaks。,机翻+术语处理
 1465,Message_TutorialPopup_15_Hint,,,原文为空
 1466,Message_TutorialPopup_15_Title,,,原文为空
-1467,Message_TutorialPopup_16_Body,Dwellers with a high Luck SPECIAL are more successful at rushing rooms and getting CAPS bonuses when production finishes.,具有较高幸运SPECIAL的居民在冲房间方面更成功，并在生产完成时获得瓶盖奖金。,机翻+术语处理
+1467,Message_TutorialPopup_16_Body,Dwellers with a high Luck SPECIAL are more successful at rushing rooms and getting CAPS bonuses when production finishes.,具有较高幸运特殊属性的居民在冲房间方面更成功，并在生产完成时获得瓶盖奖金。,机翻+术语处理
 1468,Message_TutorialPopup_16_Hint,,,原文为空
 1469,Message_TutorialPopup_16_Title,,,原文为空
 1470,Message_TutorialPopup_17_Body,"Pets can give your Dwellers a boost. 
@@ -2748,7 +2748,7 @@ Assign Pets like you equip Weapons and Outfits.","宠物可以增强你的居民
 1483,Message_TutorialPopup_21_Body_Part2_PC,Attack enemies by clicking on a Dweller and then on an enemy. You can also attack by clicking and holding a Dweller and dragging the target to an enemy.,单击居民，然后单击敌人来攻击敌人。您还可以通过单击并按住居民并将目标拖到敌人身上来进行攻击。,机翻+术语处理
 1484,Message_TutorialPopup_21_Body_Part2_Xbox,"To attack a specific enemy, hold [A] while a Dweller is selected to make a target appear, and then select an enemy.",要攻击特定敌人，请按住[A]，同时选择居民使目标出现，然后选择一个敌人。,机翻+术语处理
 1485,Message_TutorialPopup_21_Title,Navigation and Combat,移动与战斗,人工UI覆盖
-1486,Message_TutorialPopup_22_Body,Dwellers out in the Wasteland may stumble upon a special location! You can choose to enter this location or ignore it and continue exploring the Wasteland.,废土中的居民可能会偶然发现SPECIAL位置！你可以选择进入这个位置或者忽略它并继续探索废土。,机翻+术语处理
+1486,Message_TutorialPopup_22_Body,Dwellers out in the Wasteland may stumble upon a special location! You can choose to enter this location or ignore it and continue exploring the Wasteland.,废土中的居民可能会偶然发现特别位置！你可以选择进入这个位置或者忽略它并继续探索废土。,机翻+术语处理
 1487,Message_TutorialPopup_23_Body,Let's use some Nuka-Cola Quantum to instantly get back to the Vault.,让我们使用一些核子可乐量子立即回到避难所。,机翻+术语处理
 1488,Message_TutorialPopup_24_Body_Part1,"When it appears, tap the checkmark icon to perform a Critical Hit.",出现时，点击对勾图标即可触发暴击。,人工UI覆盖
 1489,Message_TutorialPopup_24_Body_Part1_PC,"When it appears, click the checkmark icon to perform a Critical Hit.",当它出现时，单击复选标记图标即可执行致命一击。,机翻+术语处理
@@ -3169,8 +3169,8 @@ Snip Snip (8%)","巧手先生(92%)
 1845,Objective_Power_Plural,Collect {0} Power,收集{0}力量,机翻+术语处理
 1846,Objective_Pregnant,Have 1 Female Dweller pregnant,1名女性居民怀孕,机翻+术语处理
 1847,Objective_Pregnant_Plural,Have {0} Female Dwellers pregnant,{0}女性居民怀孕了,机翻+术语处理
-1848,Objective_RaiseSpecialLevel,Raise any SPECIAL stat of 1 Dweller,提高1居民的任何SPECIAL统计数据,机翻+术语处理
-1849,Objective_RaiseSpecialLevel_Plural,Raise any SPECIAL stat of {0} Dwellers,提高{0}居民的任何SPECIAL统计数据,机翻+术语处理
+1848,Objective_RaiseSpecialLevel,Raise any SPECIAL stat of 1 Dweller,提高1居民的任何特殊属性,机翻+术语处理
+1849,Objective_RaiseSpecialLevel_Plural,Raise any SPECIAL stat of {0} Dwellers,提高{0}居民的任何特殊属性,机翻+术语处理
 1850,Objective_RaiseSpecificSpecialLevel,Raise the {1} of 1 Dweller,提高1居民的{1},机翻+术语处理
 1851,Objective_RaiseSpecificSpecialLevel_Plural,Raise the {1} of {0} Dwellers,升高{0}居民的{1},机翻+术语处理
 1852,Objective_RandomEnemyKilledUnarmed,Kill 1 {1} without a weapon,不使用武器杀死1名{1},机翻+术语处理
@@ -3246,7 +3246,7 @@ Snip Snip (8%)","巧手先生(92%)
 1922,Outfit_Description_AlistairSpecial,A favorite of Wasteland elitists and real estate developers.,废土精英人士和房地产开发商的最爱。,机翻+术语处理
 1923,Outfit_Description_AllNighware,Best used when sleeping or... entertaining.,最适合在睡觉或...娱乐时使用。,机翻+术语处理
 1924,Outfit_Description_AllNighware_Lucky,Go to bed grinning and wake up smiling. Every. Single. Time.,微笑着上床睡觉，微笑着醒来。每一个。单身的。时间。,机翻+术语处理
-1925,Outfit_Description_AllNighware_Naughty,"When the lights go out, your special skills shine.",当灯熄灭时，你的SPECIAL技能就会发光。,机翻+术语处理
+1925,Outfit_Description_AllNighware_Naughty,"When the lights go out, your special skills shine.",当灯熄灭时，你的特殊属性技能就会发光。,机翻+术语处理
 1926,Outfit_Description_ArgyleSweater,Because the Vault's Caps reserve doesn't count itself.,因为避难所的瓶盖储备本身不计算在内。,机翻+术语处理
 1927,Outfit_Description_BaseballUniform,Uniform of America's spectator sport. No matter which version you prefer.,美国观赏性运动的制服。无论您喜欢哪个版本。,机翻+术语处理
 1928,Outfit_Description_BattleArmor,The protection of choice for Wasteland mercenaries.,废土雇佣兵的首选保护。,机翻+术语处理
@@ -3802,7 +3802,7 @@ Legendary Pet (20%)","普通宠物(45%)
 2466,PetCarrier_ContentRedeemTitle4,Bundle of 40 Pet Carriers,40个宠物包套装,机翻+术语处理
 2467,PetCarrier_ContentTitle,EACH PET CARRIER CONTAINS:,每个宠物笼包含：,机翻+术语处理
 2468,Piper_campaign_Btn,NOT NOW,暂不,人工UI覆盖
-2469,Piper_campaign_Text,A new special visitor from Fallout 4 wants to join your Vault,来自《辐射4》的新SPECIAL访客想要加入您的避难所,机翻+术语处理
+2469,Piper_campaign_Text,A new special visitor from Fallout 4 wants to join your Vault,来自《辐射4》的新特别访客想要加入您的避难所,机翻+术语处理
 2470,Piper_campaign_Title,Piper,派珀,机翻+术语处理
 2471,AlienDrone_campaign_Btn,NOT NOW,暂不,人工UI覆盖
 2472,AlienDrone_campaign_Text,Vault-Tec is thankful for all the Overseers and wants to thank you with this free Alien Drone Pet!,避难所科技感谢所有监督者，并想用这个免费的外星无人机宠物来感谢你们！,机翻+术语处理
@@ -4006,7 +4006,7 @@ Legendary Pet (20%)","普通宠物(45%)
 2643,QuestLoc_AllsFairinLoveandNuclearWar_Conversation_3_Team_2,"I'm sorry, this can't work. You look too much like my mother.",抱歉，这行不通。你长得太像我妈妈了。,机翻+术语处理
 2644,QuestLoc_AllsFairinLoveandNuclearWar_QuestLongDescription,"We've received word that a nearby Vault is holding a Singles Night for Valentine's Day, and they've invited us to participate!",我们收到消息，附近的避难所正在举办情人节单身之夜，他们邀请我们参加！,机翻+术语处理
 2645,QuestLoc_AllsFairinLoveandNuclearWar_QuestName,All's Fair in Love and Nuclear War,爱情和核战争一切都是公平的,机翻+术语处理
-2646,QuestLoc_AllsFairinLoveandNuclearWar_QuestObjective_1,Meet that special someone.,认识那个SPECIAL人。,机翻+术语处理
+2646,QuestLoc_AllsFairinLoveandNuclearWar_QuestObjective_1,Meet that special someone.,认识那个特别的人。,机翻+术语处理
 2647,QuestLoc_AllsFairinLoveandNuclearWar_QuestObjective_2,Dissuade rival suitors.,劝阻竞争对手。,机翻+术语处理
 2648,QuestLoc_AllsFairinLoveandNuclearWar_QuestShortDescription,Travel to a nearby Vault to find a potential mate.,前往附近的避难所寻找潜在的伴侣。,机翻+术语处理
 2649,QuestLoc_AllsFairinLoveandNuclearWar_RaiderLine_1,Phew! I was afraid I'd have to dance.,唷！我担心我必须跳舞。,机翻+术语处理
@@ -4181,7 +4181,7 @@ Legendary Pet (20%)","普通宠物(45%)
 2818,QuestLoc_ASpecialBrand_Conversation_2_NPCStart_4,"Nice scar, though. Looked like it'll heal well.",不过伤疤不错。看起来会痊愈的很好。,机翻+术语处理
 2819,QuestLoc_ASpecialBrand_Conversation_2_Team_1,"Jack's still alive? Then we might live to see another day, too...",杰克还活着吗？那么我们也许还能活着看到另一天……,机翻+术语处理
 2820,QuestLoc_ASpecialBrand_QuestLongDescription,"Last night, we ended up partying with Raiders at an old Warehouse. We should search there for clues to Jack's whereabouts. He's the Overseer's son, after all. If we lose him, we'll end up getting kicked out of the Vault with nothing on our backs... or worse!",昨晚，我们最终在一个旧仓库与掠夺者聚会。我们应该在那里寻找有关杰克下落的线索。毕竟他是监督者的儿子。如果我们失去他，我们最终会被踢出避难所，一无所有……或者更糟！,机翻+术语处理
-2821,QuestLoc_ASpecialBrand_QuestName,A Special Brand,一个SPECIAL品牌,机翻+术语处理
+2821,QuestLoc_ASpecialBrand_QuestName,A Special Brand,一个特别品牌,机翻+术语处理
 2822,QuestLoc_ASpecialBrand_QuestObjective_1,Find out if the Raiders know what happened to Jack.,查明掠夺者是否知道杰克发生了什么事。,机翻+术语处理
 2823,QuestLoc_ASpecialBrand_QuestShortDescription,We were partying at an old Warehouse! Maybe there are clues there...,我们在一个旧仓库举办派对！也许那里有线索……,机翻+术语处理
 2824,QuestLoc_Astronomical_QuestName,Astronomical Aggression,天文侵略,机翻+术语处理
@@ -5978,7 +5978,7 @@ Legendary Pet (20%)","普通宠物(45%)
 4615,QuestLoc_GroomforDoubt_Conversation_2_NPCEnd_3,"Come on ladies, let's show these losers what we're made of!",来吧，女士们，让我们向这些失败者展示我们的实力！,机翻+术语处理
 4616,QuestLoc_GroomforDoubt_Conversation_2_NPCStart_1,Welcome Dwellers.,欢迎居民。,机翻+术语处理
 4617,QuestLoc_GroomforDoubt_Conversation_2_NPCStart_2,"If you're looking for adventure, you've come to the right place.",如果您正在寻找冒险，那么您来对地方了。,机翻+术语处理
-4618,QuestLoc_GroomforDoubt_Conversation_2_NPCStart_3,We have a special clearance sale on Christmas-related stuff.,我们对圣诞节相关的商品进行SPECIAL清仓促销。,机翻+术语处理
+4618,QuestLoc_GroomforDoubt_Conversation_2_NPCStart_3,We have a special clearance sale on Christmas-related stuff.,我们对圣诞节相关的商品进行特别清仓促销。,机翻+术语处理
 4619,QuestLoc_GroomforDoubt_Conversation_2_Team_1,We came for the groom you kidnapped.,我们是来找你绑架的新郎的。,机翻+术语处理
 4620,QuestLoc_GroomforDoubt_Conversation_2_Team_2,True love conquers all.,真爱可以战胜一切。,机翻+术语处理
 4621,QuestLoc_GroomforDoubt_Conversation_2_Team_3,Die!,死！,机翻+术语处理
@@ -7911,7 +7911,7 @@ Legendary Pet (20%)","普通宠物(45%)
 6548,QuestLoc_SpringingtheTrap_Conversation_3_NPCStart_4,It's a Glowing Radscorpion! And the suits all the Pests wear protect them from its radiation.,这是一个发光的辐射蝎！所有害虫都穿的衣服可以保护他们免受辐射。,机翻+术语处理
 6549,QuestLoc_SpringingtheTrap_Conversation_3_Team_1,So what's all this talk about being unworthy?,那么，大家都在谈论什么是不配呢？,机翻+术语处理
 6550,QuestLoc_SpringingtheTrap_Conversation_3_Team_2,But doesn't Pestilence attack them?,但瘟疫不会攻击他们吗？,机翻+术语处理
-6551,QuestLoc_SpringingtheTrap_Conversation_3_Team_3,What makes this Glowing Radscorpion so special?,是什么让这个发光的辐射蝎如此SPECIAL？,机翻+术语处理
+6551,QuestLoc_SpringingtheTrap_Conversation_3_Team_3,What makes this Glowing Radscorpion so special?,是什么让这个发光的辐射蝎如此特别？,机翻+术语处理
 6552,QuestLoc_SpringingtheTrap_Conversation_3_Team_4,Why call themselves Pests? The Unworthy would have been much better.,为什么称自己为害虫？不值得的人会好得多。,机翻+术语处理
 6553,QuestLoc_SpringingtheTrap_QuestLongDescription,"At Three Dog's advice, we spread the word that a dozen suits of Power Armor were hidden in a particular cave. The Pests took the bait and are currently inside, searching for the suits. It's time to head in there and find out what we can about Pestilence and the Pests!",在三狗的建议下，我们散布了消息，说在一个特定的洞穴里藏着十几套动力装甲。害虫们上钩了，目前正在里面寻找套装。是时候去那里了解一下有关瘟疫和害虫的知识了！,机翻+术语处理
 6554,QuestLoc_SpringingtheTrap_QuestName,Springing the Trap,跳出陷阱,机翻+术语处理
@@ -8341,7 +8341,7 @@ Legendary Pet (20%)","普通宠物(45%)
 6978,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCEnd_1,Fine. Whatever. So long as I get what's mine.,美好的。任何。只要我能得到属于我的东西。,机翻+术语处理
 6979,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCEnd_2,That's the spirit. Now get going. That mitt ain't going to return itself.,这就是精神。现在开始吧。那只手套不会自己回来。,机翻+术语处理
 6980,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCEnd_3,"Cause there ain't no one else around. Now, I ain't looking for an interrogation. I just want that mitt back. So go.",因为周围没有其他人了。现在，我不是在寻求审讯。我只想拿回那只手套。所以走吧。,机翻+术语处理
-6981,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCEnd_4,"It's mine. That's what's special. And I won't have folks stealing from me. Now how about you hop to it, eh?",这是我的。这就是SPECIAL。我也不会让别人偷我的东西。现在你跳过去怎么样，嗯？,机翻+术语处理
+6981,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCEnd_4,"It's mine. That's what's special. And I won't have folks stealing from me. Now how about you hop to it, eh?",这是我的。这就是特别。我也不会让别人偷我的东西。现在你跳过去怎么样，嗯？,机翻+术语处理
 6982,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCStart_1,"Oh. You must be Nick's pal. Took ya long enough. You here to help me recover my great, great, great...",哦。你一定是尼克的朋友。花了你足够长的时间。你来这里是为了帮助我恢复我的伟大、伟大、伟大……,机翻+术语处理
 6983,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCStart_2,"...great grandpappy's mitt? Well, I'll make it easy for ya.",...曾祖父的手套？好吧，我会让你轻松一些。,机翻+术语处理
 6984,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_NPCStart_3,The culprit's hiding out in this place as we speak.,就在我们说话的时候，罪魁祸首就躲在这个地方。,机翻+术语处理
@@ -8349,7 +8349,7 @@ Legendary Pet (20%)","普通宠物(45%)
 6986,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_Team_1,What if I just talk to them instead? Ask for the mitt back?,如果我只是和他们交谈怎么办？Ask for the mitt back?,机翻+术语处理
 6987,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_Team_2,Rough them up? Sounds like fun.,粗暴他们？听起来很有趣。,机翻+术语处理
 6988,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_Team_3,How do you know it was this “whippersnapper”?,你怎么知道是这个“自吹自擂者”？,机翻+术语处理
-6989,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_Team_4,What's so special about this mitt?,这副手套有什么SPECIAL？,机翻+术语处理
+6989,QuestLoc_TheCaseoftheMissingMitt_Conversation_1_Team_4,What's so special about this mitt?,这副手套有什么特别？,机翻+术语处理
 6990,QuestLoc_TheCaseoftheMissingMitt_Conversation_2_NPCEnd_1,"Nope, but it didn't walk off on its own. Might be someone else around who snatched it.",不，但它并没有自己走开。可能是周围其他人抢走了它。,机翻+术语处理
 6991,QuestLoc_TheCaseoftheMissingMitt_Conversation_2_NPCEnd_2,"Hey, hey. Let's not do anything hasty here. I'll give you some of the other stuff I “recovered.” Now, don't you have a mitt to recover?",嘿，嘿。我们不要在这里做任何仓促的事情。我会给你一些我“恢复”的其他东西。现在，你没有恢复的手套吗？,机翻+术语处理
 6992,QuestLoc_TheCaseoftheMissingMitt_Conversation_2_NPCEnd_3,Honestly? Guy just rubbed me the wrong way. Wanted to wipe that droopy grin off his face.,诚实地？盖伊只是用错误的方式摩擦了我。想要抹去他脸上那副颓然的笑容。,机翻+术语处理
@@ -8428,7 +8428,7 @@ Legendary Pet (20%)","普通宠物(45%)
 7065,QuestLoc_TheDeBuggers_Conversation_2_Team_1,Will this game drain my Pip-Boy battery?,这个游戏会耗尽我的哔哔小子的电池吗？,机翻+术语处理
 7066,QuestLoc_TheDeBuggers_Conversation_2_Team_2,"Shouldn't you be making useful stuff, like weapons?",难道你不应该制造有用的东西，比如武器吗？,机翻+术语处理
 7067,QuestLoc_TheDeBuggers_Conversation_2_Team_3,"So, what's your role?",那么，你的角色是什么？,机翻+术语处理
-7068,QuestLoc_TheDeBuggers_QuestLongDescription,"We've received a call for help from Vault 505. They've been working on a special project that would allow Dwellers to play games on their Pip-Boys. Imagine that! Unfortunately, they've also been overrun with Radroaches. We have to help them!",我们收到了来自避难所505的求助电话。他们一直在致力于一个SPECIAL项目，该项目将允许居民在他们的Pip-Boys上玩游戏。想象一下！不幸的是，它们也被蟑螂占领了。我们必须帮助他们！,机翻+术语处理
+7068,QuestLoc_TheDeBuggers_QuestLongDescription,"We've received a call for help from Vault 505. They've been working on a special project that would allow Dwellers to play games on their Pip-Boys. Imagine that! Unfortunately, they've also been overrun with Radroaches. We have to help them!",我们收到了来自避难所505的求助电话。他们一直在致力于一个特别项目，该项目将允许居民在他们的Pip-Boys上玩游戏。想象一下！不幸的是，它们也被蟑螂占领了。我们必须帮助他们！,机翻+术语处理
 7069,QuestLoc_TheDeBuggers_QuestName,The De-Buggers,调试者,机翻+术语处理
 7070,QuestLoc_TheDeBuggers_QuestObjective_1,Talk to the developers.,与开发商交谈。,机翻+术语处理
 7071,QuestLoc_TheDeBuggers_QuestObjective_2,Talk to the producers.,与制片人交谈。,机翻+术语处理
@@ -10173,7 +10173,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 8722,Special_Luck,LUCK,幸运,机翻+术语处理
 8723,Special_Perception,PERCEPTION,感知,机翻+术语处理
 8724,Special_Strength,STRENGTH,力量,机翻+术语处理
-8725,Special_Title,SPECIAL,SPECIAL,机翻+术语处理
+8725,Special_Title,SPECIAL,特殊属性,人工UI覆盖
 8726,Speech_Birth_Incident,This is no time to start a family. There's an incident in the Vault!,现在不是组建家庭的时候。避难所里出事了！,机翻+术语处理
 8727,Speech_Conversation_NPC1_Topic1,Up for a game of cards later?,稍后要打牌吗？,机翻+术语处理
 8728,Speech_Conversation_NPC1_Topic10,"If you could visit one famous landmark in the outside world, what would it be?",如果你可以参观外面世界的一个著名地标，你会选择什么？,机翻+术语处理
@@ -10512,7 +10512,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 9061,Speech_Generic_Dweller51,I heard there are Vaults all over the country. But that's crazy talk.,听说全国各地都有避难所。但这是疯狂的言论。,机翻+术语处理
 9062,Speech_Generic_Dweller52,Is it true there are Vaults all across the world? Naaahhh.,世界各地真的都有避难所吗？呐啊啊。,机翻+术语处理
 9063,Speech_Generic_Dweller53,I wonder how high the Vault numbers go...,我想知道避难所数字有多高……,机翻+术语处理
-9064,Speech_Generic_Dweller54,"I'm special, gosh darn it. And someday, the Overseer WILL notice me.",我是SPECIAL，天哪。有一天，监督者会注意到我。,机翻+术语处理
+9064,Speech_Generic_Dweller54,"I'm special, gosh darn it. And someday, the Overseer WILL notice me.",我很特别，天哪。总有一天，监督者会注意到我。,人工UI覆盖
 9065,Speech_Generic_Dweller55,Anybody need help with anything?,有人需要任何帮助吗？,机翻+术语处理
 9066,Speech_Generic_Dweller56,I wonder how a Vault Suit would look with cowboy boots.,我想知道避难所西装搭配牛仔靴会是什么样子。,机翻+术语处理
 9067,Speech_Generic_Dweller57,One thing they never tell you – are you supposed to wear underwear under the jumpsuit or not?,他们从来没有告诉你一件事——你是否应该在连衣裤下面穿内衣？,机翻+术语处理
@@ -10693,9 +10693,9 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 9242,Speech_LivingQuarter_PickupLines_36,Did your father sell diamonds? 'Cause you are flawless.,你父亲卖钻石吗？因为你是完美无缺的。,机翻+术语处理
 9243,Speech_LivingQuarter_PickupLines_37,I really want to kiss you right now.,我现在真的很想吻你。,机翻+术语处理
 9244,Speech_LivingQuarter_PickupLines_38,You think maybe... I could call you baby?,你认为也许...我可以叫你宝贝？,机翻+术语处理
-9245,Speech_LivingQuarter_PickupLines_39,Being here with you makes me feel so... special.,和你在一起让我感觉如此…… SPECIAL。,机翻+术语处理
+9245,Speech_LivingQuarter_PickupLines_39,Being here with you makes me feel so... special.,和你在一起让我感觉如此……特别。,人工UI覆盖
 9246,Speech_LivingQuarter_PickupLines_4,Finally some alone time.,终于有一些独处的时间了。,机翻+术语处理
-9247,Speech_LivingQuarter_PickupLines_40,"It is getting warm in here, or is it just me?",这里越来越暖和了，还是只有我一个人这样？,机翻+术语处理
+9247,Speech_LivingQuarter_PickupLines_40,"It is getting warm in here, or is it just me?",我很特别，天哪。总有一天，监督者会注意到我。,人工UI覆盖
 9248,Speech_LivingQuarter_PickupLines_41,"I must have died in that last Radroach attack, 'cause baby? I'm in Heaven.",我一定是在最后一次辐射蟑螂攻击中死了，因为宝贝？我在天堂。,机翻+术语处理
 9249,Speech_LivingQuarter_PickupLines_42,Sound the alarm! We've got a thief in the Vault! They stole my heart. Heh.,拉响警报！我们在避难所里发现了小偷！他们偷走了我的心。呵呵。,机翻+术语处理
 9250,Speech_LivingQuarter_PickupLines_43,"If I could rearrange the alphabet, I'd put B and O together. No! Wait! That's not right...",如果我可以重新排列字母表，我会把B和O放在一起。不！等待！那是不对的...,机翻+术语处理
@@ -10913,7 +10913,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 9462,Speech_Quest_Generic_Dweller_Conversation_25_Response_3,Not getting distracted by over-talkative companions?,不会被过于健谈的同伴分散注意力吗？,机翻+术语处理
 9463,Speech_Quest_Generic_Dweller_Conversation_26,"When we get back, what are you going to do first?",当我们回来后，你首先要做什么？,机翻+术语处理
 9464,Speech_Quest_Generic_Dweller_Conversation_26_Response_1,Probably take my allocated 2.5 minute shower.,可能会洗我分配的2.5分钟淋浴。,机翻+术语处理
-9465,Speech_Quest_Generic_Dweller_Conversation_26_Response_2,"Maybe talk to my special someone and, you know. Dance.",也许和我的SPECIAL人谈谈，你知道。舞蹈。,机翻+术语处理
+9465,Speech_Quest_Generic_Dweller_Conversation_26_Response_2,"Maybe talk to my special someone and, you know. Dance.",也许和我的特殊属性人谈谈，你知道。舞蹈。,机翻+术语处理
 9466,Speech_Quest_Generic_Dweller_Conversation_26_Response_3,Request never to be assigned with you again.,请求不再分配给你。,机翻+术语处理
 9467,Speech_Quest_Generic_Dweller_Conversation_27,I am SO not having fun.,我实在是太不开心了。,机翻+术语处理
 9468,Speech_Quest_Generic_Dweller_Conversation_27_Response_1,"Oh, come on. It's not that bad. Okay, it IS. But still.",哦，来吧。没那么糟糕。好吧，是的。但仍然。,机翻+术语处理
@@ -11314,7 +11314,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 9863,Stats_Rare_Outfits,Rare Outfits,稀有服装,机翻+术语处理
 9864,Stats_Rare_Pets,Rare Pets,稀有宠物,机翻+术语处理
 9865,Stats_Rare_Weapons,Rare Weapons,稀有武器,机翻+术语处理
-9866,Stats_Special_Trained,SPECIAL Stats Trained,SPECIAL统计数据训练,机翻+术语处理
+9866,Stats_Special_Trained,SPECIAL Stats Trained,特殊属性训练,机翻+术语处理
 9867,Stats_Stimpaks_Taken,Stimpaks Taken,治疗针已拍摄,机翻+术语处理
 9868,Stats_Successful_Rushes,Successful Rushes,成功冲刺,机翻+术语处理
 9869,Stats_Time_Played,Time Played (All-Time),上场时间（所有时间）,机翻+术语处理
@@ -11522,7 +11522,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 10071,Title_WeeklyReportSmall,Weekly Report,每周报告,机翻+术语处理
 10072,Turn_Off_Tips,TURN TIPS OFF,关闭提示,机翻+术语处理
 10073,Tutorial_Header,Vault Boy!,避难所男孩！,机翻+术语处理
-10074,Tutorial_Tip_01,Successfully Rushing will give you the room's regular rewards plus a special bonus!,冲刺成功将获得房间常规奖励以及SPECIAL奖励！,机翻+术语处理
+10074,Tutorial_Tip_01,Successfully Rushing will give you the room's regular rewards plus a special bonus!,冲刺成功将获得房间常规奖励以及特别奖励！,机翻+术语处理
 10075,Tutorial_Tip_02,Assign Dwellers to production rooms to obtain resources.,将居民分配到生产房间以获取资源。,机翻+术语处理
 10076,Tutorial_Tip_03,Rooms run on Power. Dwellers run on Food and Water.,房间靠电源运行。居民依靠食物和水运行。,机翻+术语处理
 10077,Tutorial_Tip_04,Dwellers with high Strength perform better in Power rooms.,力量较高的居民在动力室中表现更好。,机翻+术语处理
@@ -11537,7 +11537,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 10086,Tutorial_Tip_13,The Lounge will allow you to train a Dweller's Charisma.,休息室将允许您训练居民的魅力。,机翻+术语处理
 10087,Tutorial_Tip_14,The Classroom will allow you to train a Dweller's Intelligence.,教室将允许您训练居民的智力。,机翻+术语处理
 10088,Tutorial_Tip_15,The Athletics Room will allow you to train a Dweller's Agility.,体育室可以让你训练居民的敏捷。,机翻+术语处理
-10089,Tutorial_Tip_16,Successfully Rushing will give you the room's regular rewards plus a special bonus!,冲刺成功将获得房间常规奖励以及SPECIAL奖励！,机翻+术语处理
+10089,Tutorial_Tip_16,Successfully Rushing will give you the room's regular rewards plus a special bonus!,冲刺成功将获得房间常规奖励以及特别奖励！,机翻+术语处理
 10090,Tutorial_Tip_17,The Game Room will allow you to train a Dweller's Luck.,游戏室将允许您训练居民的幸运。,机翻+术语处理
 10091,Tutorial_Tip_18,Build Storage Rooms to increase your Vault's Weapon and Outfit holding capacity.,建造储藏室来增加你的避难所的武器和装备的容纳能力。,机翻+术语处理
 10092,Tutorial_Tip_19,"There are higher tier versions of the production rooms that are more efficient, but more expensive.",生产室有更高级别的版本，效率更高，但价格也更高。,机翻+术语处理
@@ -11546,11 +11546,11 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 10095,Tutorial_Tip_22,Rooms farthest from a power source will shut down first.,距离电源最远的房间将首先关闭。,机翻+术语处理
 10096,Tutorial_Tip_23,"The longer a Dweller survives in the Wasteland, the better gear they will find.",居民在废土中生存的时间越长，他们就能找到更好的装备。,机翻+术语处理
 10097,Tutorial_Tip_24,"When a room finishes production, you have a chance to get bonus CAPS based on the Dwellers' Luck.",当房间完成生产后，你有机会根据居民'幸运获得奖励瓶盖。,机翻+术语处理
-10098,Tutorial_Tip_25,Tap a Dweller's SPECIAL chart for more details.,点击居民的SPECIAL图表了解更多详细信息。,机翻+术语处理
-10099,Tutorial_Tip_25_PC,Click a Dweller's SPECIAL chart for more details.,单击居民的SPECIAL图表了解更多详细信息。,机翻+术语处理
-10100,Tutorial_Tip_25_PS4,Press R3 while a Dweller is selected for more details on their SPECIAL stats.,选择居民时按R3可了解有关其SPECIAL统计数据的更多详细信息。,机翻+术语处理
-10101,Tutorial_Tip_25_Switch,Press the Right Stick while a Dweller is selected for more details on their SPECIAL stats.,选择居民时按右摇杆可获取有关其SPECIAL统计数据的更多详细信息。,机翻+术语处理
-10102,Tutorial_Tip_25_Xbox,Click the Right Stick while a Dweller is selected for more details on their SPECIAL stats.,选择居民时单击右摇杆，了解有关其SPECIAL统计数据的更多详细信息。,机翻+术语处理
+10098,Tutorial_Tip_25,Tap a Dweller's SPECIAL chart for more details.,点击居民的特殊属性图表了解更多详细信息。,机翻+术语处理
+10099,Tutorial_Tip_25_PC,Click a Dweller's SPECIAL chart for more details.,单击居民的特殊属性图表了解更多详细信息。,机翻+术语处理
+10100,Tutorial_Tip_25_PS4,Press R3 while a Dweller is selected for more details on their SPECIAL stats.,选择居民时按R3可了解有关其特殊属性的更多详细信息。,机翻+术语处理
+10101,Tutorial_Tip_25_Switch,Press the Right Stick while a Dweller is selected for more details on their SPECIAL stats.,选择居民时按右摇杆可获取有关其特殊属性的更多详细信息。,机翻+术语处理
+10102,Tutorial_Tip_25_Xbox,Click the Right Stick while a Dweller is selected for more details on their SPECIAL stats.,选择居民时单击右摇杆，了解有关其特殊属性的更多详细信息。,机翻+术语处理
 10103,Tutorial_Tip_27,When a Dweller is assigned to the Radio room it will increase all Vault Dwellers happiness.,当居民分配给广播室时，所有避难所居民幸福度都会增加。,机翻+术语处理
 10104,Tutorial_Tip_28,You can rename a Dweller by tapping their name on the Dweller information pop-up.,您可以通过在居民信息弹出窗口中点击居民的名字来重命名居民。,机翻+术语处理
 10105,Tutorial_Tip_28_PC,You can rename a Dweller by clicking their name on the Dweller information pop-up.,您可以通过在居民信息弹出窗口中单击居民的姓名来重命名居民。,机翻+术语处理
@@ -11565,7 +11565,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 10114,Tutorial_Tip_32,Confused how something works?  Check the VDSG in the Pip-Boy for help.,困惑某些东西是如何工作的？检查哔哔小子中的VDSG以获得帮助。,机翻+术语处理
 10115,Tutorial_Tip_33,You can assign Dwellers to the Vault entrance to act as guards.,您可以将居民分配到避难所入口作为守卫。,机翻+术语处理
 10116,Tutorial_Tip_35,Need extra CAPS? You can sell weapons and outfits from your Vault storage.,需要额外的瓶盖吗？您可以出售避难所仓库中的武器和服装。,机翻+术语处理
-10117,Tutorial_Tip_36,Higher level Dwellers with high SPECIAL have a better chance of surviving in the Wasteland.,等级越高的居民和SPECIAL越高，在废土中生存的机会就越大。,机翻+术语处理
+10117,Tutorial_Tip_36,Higher level Dwellers with high SPECIAL have a better chance of surviving in the Wasteland.,等级越高的居民和特殊属性越高，在废土中生存的机会就越大。,机翻+术语处理
 10118,Tutorial_Tip_37,You can sort the Dweller list by tapping on the column names.,您可以通过点击列名称对居民列表进行排序。,机翻+术语处理
 10119,Tutorial_Tip_37_PC,You can sort the Dweller list by clicking on the column names.,您可以通过单击列名称对居民列表进行排序。,机翻+术语处理
 10120,Tutorial_Tip_37_Xbox,You can sort the Dweller list by selecting column names with [LB] and [RB].,您可以通过使用[LB]和[RB]选择列名称来对居民列表进行排序。,机翻+术语处理
@@ -11575,7 +11575,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 10124,Tutorial_Tip_38_Switch,Press the Left Stick for more details on your resource storage.,按左摇杆了解有关资源存储的更多详细信息。,机翻+术语处理
 10125,Tutorial_Tip_38_Xbox,Click the Left Stick for more details on your resource storage.,单击左摇杆了解有关资源存储的更多详细信息。,机翻+术语处理
 10126,Tutorial_Tip_39,Your Dweller does not suffer damage or radiation when coming back from the Wasteland.,从荒地回来时，您的居民不会受到伤害或辐射。,机翻+术语处理
-10127,Tutorial_Tip_40,Each SPECIAL stat increases a Dweller's effectiveness in the Wasteland in its own way.,每个SPECIAL统计数据都会以自己的方式增加居民在废土中的有效性。,机翻+术语处理
+10127,Tutorial_Tip_40,Each SPECIAL stat increases a Dweller's effectiveness in the Wasteland in its own way.,每个特殊属性都会以自己的方式增加居民在废土中的有效性。,机翻+术语处理
 10128,Tutorial_Tip_41,"To quickly check on your Dwellers exploring, just tap directly on the Wasteland.",要快速检查您的居民探索，只需直接点击废土。,机翻+术语处理
 10129,Tutorial_Tip_41_PC,"To quickly check on your Dwellers exploring, just click directly on the Wasteland.",要快速检查您的居民探索，只需直接单击废土。,机翻+术语处理
 10130,Tutorial_Tip_41_Xbox,"To quickly check on your Dwellers exploring, just press [DL].",要快速检查您的居民探索，只需按[DL]。,机翻+术语处理
@@ -11596,7 +11596,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 10145,Tutorial_Tip_54_Xbox,Assign a Dweller to the Wasteland and select the red Vault Door button to evict them from the Vault.,将居民分配给废土并选择红色避难所大门按钮将其从避难所中逐出。,机翻+术语处理
 10146,Tutorial_Tip_55,Want to fill your Vault with Ghouls? Check out the upgraded Barbershop!,想要用尸鬼填充你的避难所吗？看看升级后的理发店！,机翻+术语处理
 10147,Tutorial_Tip_56,Dwellers with high Endurance gain more health when they level up.,具有高耐力的居民在升级时获得更多生命值。,机翻+术语处理
-10148,Tutorial_Tip_57,All SPECIAL stats help your Dwellers fight creatures in the Wasteland.,所有SPECIAL统计数据可帮助您的居民与废土中的生物作战。,机翻+术语处理
+10148,Tutorial_Tip_57,All SPECIAL stats help your Dwellers fight creatures in the Wasteland.,所有特殊属性可帮助您的居民与废土中的生物作战。,机翻+术语处理
 10149,Tutorial_Tip_58,"Crafting Rare and Legendary items always requires Rare and Legendary Junk, respectively.",制作稀有和传说物品总是分别需要稀有和传说垃圾。,机翻+术语处理
 10150,Tutorial_Tip_59,Junk isn't as easy to find in the Wasteland as Weapons and Outfits. Make sure your Dwellers are up to the task.,在废土中，垃圾不像武器和服装那么容易找到。确保您的居民能够胜任这项任务。,机翻+术语处理
 10151,Tutorial_Tip_60,"Feeling lucky? When you scrap an item, you might get all the Junk from its Recipe.",感觉很幸运吗？当你废弃一个物品时，你可能会从它的配方中得到所有垃圾。,机翻+术语处理
@@ -11609,7 +11609,7 @@ Proceed to purchase?","此实验避难所仅在赛季期间可用，之后将不
 10158,Tutorial_Tip_65_Xbox,Press [A] to skip dialogue during Quests.,按[A]在任务期间跳过对话。,机翻+术语处理
 10159,Tutorial_Tip_66,Dwellers exploring the Wasteland have a chance of finding surprise locations.,居民探索废土有机会发现惊喜地点。,机翻+术语处理
 10160,Tutorial_Tip_67,"Don't forget to pack RadAway on Quests, some of the enemies do radiation damage.",不要忘记在任务中打包消辐宁，一些敌人会辐射伤害。,机翻+术语处理
-10161,Tutorial_Tip_68,"Some enemies on Quests are more powerful and have special attacks, try targeting them first!",任务中的一些敌人更强大并且具有SPECIAL攻击力，请先尝试瞄准他们！,机翻+术语处理
+10161,Tutorial_Tip_68,"Some enemies on Quests are more powerful and have special attacks, try targeting them first!",任务中的一些敌人更强大并且具有特别攻击力，请先尝试瞄准他们！,机翻+术语处理
 10162,Tutorial_Tip_69,Dweller health does not replenish over time in a Quest... Be sure to pack tons of Stimpaks before leaving.,居民生命值在任务中不会随着时间的推移而补充...离开前一定要带上大量的治疗针。,机翻+术语处理
 10163,Tutorial_Tip_70,Pets equipped to dead Dwellers that are not revived during Quests will return to the Vault.,任务期间未复活的死亡居民装备的宠物将返回避难所。,机翻+术语处理
 10164,Tutorial_Tip_71,Rescued Dwellers will wait outside your Vault when a Quest is completed.,当任务完成时，获救的居民将在你的避难所外面等待。,机翻+术语处理
