@@ -17,7 +17,21 @@
 - 一键生成版本化压缩包并发布 GitHub Release
 - 支持备份/还原原版文件
 
-## 快速开始
+## Win32 安装器
+
+`installer/fs_installer` 是 Rust + `windows-rs` 的纯 Win32 GDI 安装器，
+用于安装/还原汉化包，界面配色与版式取自游戏标题界面。
+
+```powershell
+cd installer/fs_installer
+cargo build --release
+```
+
+打包：
+
+```powershell
+python installer/build_release.py --version 1.1.0
+```
 
 ### 使用编辑器
 

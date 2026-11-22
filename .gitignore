@@ -9,3 +9,6 @@ __pycache__/
 simhei_fixed.ttf
 simhei_stripped.ttf
 player*.log
+installer/fs_installer/target/
+installer/dist/
+installer/source_ui.png

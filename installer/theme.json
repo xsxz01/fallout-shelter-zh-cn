@@ -1,0 +1,123 @@
+{
+ "source": "Fallout Shelter 2.7.0 client UI",
+ "screen": "source_ui.png",
+ "palette": {
+  "background": "#1A1C1A",
+  "samples": [
+   {
+    "color": "#1A1C1A",
+    "pixels": 1298
+   },
+   {
+    "color": "#191B19",
+    "pixels": 1167
+   },
+   {
+    "color": "#1A1B1A",
+    "pixels": 805
+   },
+   {
+    "color": "#191C19",
+    "pixels": 602
+   },
+   {
+    "color": "#1C1E1C",
+    "pixels": 436
+   },
+   {
+    "color": "#1B1D1B",
+    "pixels": 413
+   },
+   {
+    "color": "#1D1F1D",
+    "pixels": 265
+   },
+   {
+    "color": "#8F998F",
+    "pixels": 244
+   },
+   {
+    "color": "#1F231F",
+    "pixels": 227
+   },
+   {
+    "color": "#383F38",
+    "pixels": 225
+   },
+   {
+    "color": "#1F211F",
+    "pixels": 187
+   },
+   {
+    "color": "#1E201E",
+    "pixels": 185
+   }
+  ]
+ },
+ "fonts": [
+  {
+   "name": "FuturaStd-CondensedBoldObl",
+   "size": 28128,
+   "names": [
+    "Futura Std"
+   ]
+  },
+  {
+   "name": "FuturaStd-CondensedBold",
+   "size": 26756,
+   "names": [
+    "Futura Std"
+   ]
+  },
+  {
+   "name": "monofonto",
+   "size": 53048,
+   "names": [
+    "Monofonto"
+   ]
+  },
+  {
+   "name": "AIRSTREA",
+   "size": 38836,
+   "names": [
+    "Airstream"
+   ]
+  },
+  {
+   "name": "FontdinerSwanky",
+   "size": 45524,
+   "names": [
+    "Fontdiner Swanky"
+   ]
+  },
+  {
+   "name": "JennaSue",
+   "size": 128668,
+   "names": [
+    "Jenna Sue"
+   ]
+  },
+  {
+   "name": "Boogaloo-Regular",
+   "size": 33928,
+   "names": [
+    "Boogaloo"
+   ]
+  }
+ ],
+ "localization_sources": 1,
+ "installer": {
+  "background": "#0E120E",
+  "panel": "#171D17",
+  "panel_alt": "#1F261F",
+  "line": "#3A4A3A",
+  "text": "#D6E0D6",
+  "muted": "#8C998C",
+  "accent": "#8FE08A",
+  "accent_bright": "#C8FFC0",
+  "warning": "#FFCC66",
+  "danger": "#FF6B5E",
+  "heading_font": "Bahnschrift SemiCondensed",
+  "mono_font": "Cascadia Mono"
+ }
+}
