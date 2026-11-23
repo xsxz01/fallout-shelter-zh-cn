@@ -72,25 +72,19 @@
   },
   {
    "id": "A12",
-   "file": "A12_editor.mp4",
-   "duration": 9,
-   "overlay": "编辑器"
-  },
-  {
-   "id": "A13",
-   "file": "A13_restore_english.mp4",
+   "file": "A12_restore_english.mp4",
    "duration": 6,
    "overlay": "一键还原"
   },
   {
-   "id": "A14",
-   "file": "A14_steam_store.mp4",
+   "id": "A13",
+   "file": "A13_steam_store.mp4",
    "duration": 10,
    "overlay": "仅限正版"
   },
   {
-   "id": "A15",
-   "file": "A15_outro.mp4",
+   "id": "A14",
+   "file": "A14_outro.mp4",
    "duration": 9,
    "overlay": "感谢观看"
   }
