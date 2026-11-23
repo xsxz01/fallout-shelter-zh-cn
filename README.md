@@ -58,6 +58,8 @@ python src/export_list.py    # 导出 resources/翻译清单.csv
 ```
 
 `build_patch.py` 固定从游戏目录的 `data.unity3d.en.bak` 读取原版，避免重复叠加翻译。
+构建使用 `src/bundle_writer.py` 的流式写入器，把 2.6GB 未压缩 Bundle 数据放到临时文件，
+避免 UnityPy 默认 `save()` 在内存中同时保留完整文件数据与压缩结果。
 
 ### 发布新版本
 
