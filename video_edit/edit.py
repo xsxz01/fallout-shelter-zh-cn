@@ -75,7 +75,7 @@ def main():
             else:
                 cmd = [FFMPEG, "-y", "-ss", f"{start:.3f}", "-t", f"{dur:.3f}", "-i", str(src),
                        "-vf", vf]
-            cmd += ["-an", "-c:v", "libx264", "-preset", "veryfast",
+            cmd += ["-t", f"{dur:.3f}", "-an", "-c:v", "libx264", "-preset", "veryfast",
                     "-crf", "18", "-pix_fmt", "yuv420p", str(out)]
             run(cmd)
             part_files.append(out)
