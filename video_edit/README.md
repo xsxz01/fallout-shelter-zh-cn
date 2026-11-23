@@ -45,6 +45,18 @@ video_edit/
 
    `output/draft_v1.mp4`
 
+## 游戏素材
+
+`assets/` 里的标题卡、结尾卡、封面使用游戏内提取的图片生成：
+
+```powershell
+python extract_game_assets.py   # 从游戏 bundle 导出背景 / logo / Vault Boy
+python make_assets.py           # 重新合成标题卡、结尾卡、封面
+python make_overlays.py         # 重新生成下三分之一短标签
+```
+
+`game_assets/` 是本地提取目录，不提交到仓库。
+
 ## ffmpeg
 
 脚本默认使用 `D:\ffmpeg.exe`，也可用环境变量覆盖：

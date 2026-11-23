@@ -22,13 +22,13 @@ def main():
         text = sc.get("overlay", "")
         if not text:
             continue
-        f = font(34)
+        f = font(28)
         b = d.textbbox((0, 0), text, font=f)
         tw, th = b[2] - b[0], b[3] - b[1]
         x, y = 80, 840
-        d.rounded_rectangle([x, y, x + tw + 44, y + th + 28], radius=3, fill=BG, outline=ACCENT, width=2)
+        d.rounded_rectangle([x, y, x + tw + 40, y + th + 24], radius=3, fill=BG, outline=ACCENT, width=2)
         d.rectangle([x, y, x + 6, y + th + 28], fill=ACCENT)
-        d.text((x + 22, y + 12), text, font=f, fill=TEXT)
+        d.text((x + 20, y + 10), text, font=f, fill=TEXT)
         img.save(f"overlays/{sc['id']}.png")
     print("overlays written")
 
