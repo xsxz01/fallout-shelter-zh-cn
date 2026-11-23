@@ -29,7 +29,14 @@ def main():
     raw = Path(args.raw)
     if not raw.is_absolute():
         raw = ROOT / raw
-    missing = [s["file"] for s in scenes if not (raw / s["file"]).exists()]
+    generated = ROOT / "generated"
+    def resolve(sc):
+        for base in (raw, generated):
+            p = base / sc["file"]
+            if p.exists():
+                return p
+        return None
+    missing = [s["file"] for s in scenes if resolve(s) is None]
     if missing:
         print("缺少以下素材，请放到 video_edit/raw/：")
         for m in missing:
@@ -40,7 +47,7 @@ def main():
     (ROOT / "output").mkdir(exist_ok=True)
     normalized = []
     for sc in scenes:
-        sid = sc["id"]; src = raw / sc["file"]; dur = float(sc["duration"])
+        sid = sc["id"]; src = resolve(sc); dur = float(sc["duration"])
         out = ROOT / "temp" / f"{sid}.mp4"
         vf = (f"scale={plan['width']}:{plan['height']}:force_original_aspect_ratio=decrease,"
               f"pad={plan['width']}:{plan['height']}:(ow-iw)/2:(oh-ih)/2:color=0x0E120E,"

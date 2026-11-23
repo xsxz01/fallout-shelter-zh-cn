@@ -4,7 +4,8 @@
 
 ```text
 video_edit/
-  raw/            # 你录制的 A1–A14 + narration.wav + bgm.mp3
+  raw/            # 你手动录制的 A1–A13（不含 A5、A14）+ narration.wav
+  generated/      # 已生成：A5 AI 蒙太奇、A14 结尾卡
   assets/         # 标题卡、结尾卡、封面
   overlays/       # 自动生成的字幕条/下三分之一
   subtitles/      # draft.srt / draft.ass
@@ -67,7 +68,8 @@ $env:FFMPEG="D:\ffmpeg.exe"
 
 ## 说明
 
-- `A1–A14` 必须存在，否则脚本会列出缺失文件。
+- 手动素材 A1–A4、A6–A13 必须存在；A5、A14 自动使用 `generated/`。
+- 脚本会列出真正缺失的文件。
 - 每个片段会统一为 1920×1080 / 60fps / H.264，并叠加 `overlays/A*.png` 的下三分之一文字。
 - `narration.wav` 不存在时输出无声视频；`bgm.mp3` 不存在时只用旁白。
 - `draft.ass` 是按分镜时长估算的草稿字幕，最终以 TTS 实际音频为准，可在 `make_subtitles.py` 的 `edit_plan.json` 时长调整后重新生成。

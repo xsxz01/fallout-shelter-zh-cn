@@ -32,7 +32,7 @@
    "id": "A5",
    "file": "A5_ai_workflow.mp4",
    "duration": 8,
-   "overlay": "AI 重做"
+   "overlay": ""
   },
   {
    "id": "A6",
@@ -86,7 +86,7 @@
    "id": "A14",
    "file": "A14_outro.mp4",
    "duration": 9,
-   "overlay": "感谢观看"
+   "overlay": ""
   }
  ]
 }
