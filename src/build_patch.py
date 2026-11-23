@@ -12,6 +12,7 @@ from UnityPy.helpers.TypeTreeHelper import read_value, write_typetree, TypeTreeC
 from UnityPy.streams import EndianBinaryWriter
 
 from project_paths import BUILD, BUILD_REPORT, CACHE, FONT_FIXED, GAME_BACKUP, OVERRIDES
+from bundle_writer import save_bundle
 
 GAMEDIR = str(GAME_BACKUP.parent.parent)
 SRC = str(GAME_BACKUP)
@@ -161,10 +162,7 @@ def main():
         write_typetree(fm, nd, w, x)
         ob.set_raw_data(w.bytes)
 
-    blob = env.file.save(packer="original")
-    BUILD.mkdir(parents=True, exist_ok=True)
-    with open(OUT, "wb") as f:
-        f.write(blob)
+    save_bundle(env.file, OUT)
     report = {
         "terms": len(terms),
         "changed": changed,
@@ -174,7 +172,7 @@ def main():
         "custom_fonts": "cleared",
         "overrides": len(used_overrides),
         "unused_overrides": sorted(set(overrides) - used_overrides),
-        "bundle_bytes": len(blob),
+        "bundle_bytes": os.path.getsize(OUT),
         "seconds": round(time.time() - t0, 1),
     }
     with open(REPORT, "w", encoding="utf-8") as f:
