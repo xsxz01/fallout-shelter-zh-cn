@@ -30,16 +30,24 @@ def main():
     if not raw.is_absolute():
         raw = ROOT / raw
     generated = ROOT / "generated"
-    def resolve(sc):
+    def resolve_file(name):
         for base in (raw, generated):
-            p = base / sc["file"]
+            p = base / name
             if p.exists():
                 return p
         return None
-    missing = [s["file"] for s in scenes if resolve(s) is None]
+    def parts_of(sc):
+        if "segments" in sc:
+            return sc["segments"]
+        return [{"file": sc["file"], "start": sc.get("start", 0.0), "duration": sc["duration"]}]
+    missing = []
+    for sc in scenes:
+        for pt in parts_of(sc):
+            if resolve_file(pt["file"]) is None:
+                missing.append(pt["file"])
     if missing:
         print("缺少以下素材，请放到 video_edit/raw/：")
-        for m in missing:
+        for m in dict.fromkeys(missing):
             print("  -", m)
         sys.exit(2)
 
@@ -47,24 +55,50 @@ def main():
     (ROOT / "output").mkdir(exist_ok=True)
     normalized = []
     for sc in scenes:
-        sid = sc["id"]; src = resolve(sc); dur = float(sc["duration"])
-        out = ROOT / "temp" / f"{sid}.mp4"
-        vf = (f"scale={plan['width']}:{plan['height']}:force_original_aspect_ratio=decrease,"
-              f"pad={plan['width']}:{plan['height']}:(ow-iw)/2:(oh-ih)/2:color=0x0E120E,"
-              f"fps={plan['fps']},setsar=1")
-        overlay = ROOT / "overlays" / f"{sid}.png"
-        cmd = [FFMPEG, "-y", "-stream_loop", "-1", "-i", str(src)]
-        if overlay.exists():
-            cmd += ["-i", str(overlay)]
-            fc = f"[0:v]{vf}[base];[base][1:v]overlay=0:0:format=auto[v]"
-            cmd += ["-filter_complex", fc, "-map", "[v]"]
+        sid = sc["id"]
+        parts = parts_of(sc)
+        part_files = []
+        for j, pt in enumerate(parts):
+            src = resolve_file(pt["file"])
+            start = float(pt.get("start", 0.0))
+            dur = float(pt.get("duration", sc["duration"]))
+            out = ROOT / "temp" / f"{sid}_p{j}.mp4"
+            vf = (f"scale={plan['width']}:{plan['height']}:force_original_aspect_ratio=increase,"
+                  f"crop={plan['width']}:{plan['height']},fps={plan['fps']},setsar=1,"
+                  f"tpad=stop_mode=clone:stop_duration=5")
+            blurs = sc.get("blur", [])
+            if blurs:
+                x, y, w, h = blurs[0]
+                fc = f"[0:v]crop={w}:{h}:{x}:{y},boxblur=20:20[b];[0:v][b]overlay={x}:{y},{vf}[v]"
+                cmd = [FFMPEG, "-y", "-ss", f"{start:.3f}", "-t", f"{dur:.3f}", "-i", str(src),
+                       "-filter_complex", fc, "-map", "[v]"]
+            else:
+                cmd = [FFMPEG, "-y", "-ss", f"{start:.3f}", "-t", f"{dur:.3f}", "-i", str(src),
+                       "-vf", vf]
+            cmd += ["-an", "-c:v", "libx264", "-preset", "veryfast",
+                    "-crf", "18", "-pix_fmt", "yuv420p", str(out)]
+            run(cmd)
+            part_files.append(out)
+        base = ROOT / "temp" / f"{sid}_base.mp4"
+        if len(part_files) == 1:
+            os.replace(part_files[0], base)
         else:
-            cmd += ["-vf", vf]
-        cmd += ["-t", f"{dur:.3f}", "-an", "-c:v", "libx264", "-preset", "medium",
-                "-crf", "18", "-pix_fmt", "yuv420p", str(out)]
-        run(cmd)
-        normalized.append(out)
-
+            lf = ROOT / "temp" / f"{sid}_list.txt"
+            with open(lf, "w", encoding="utf-8") as f:
+                for pth in part_files:
+                    f.write(f"file '{pth.as_posix()}'\n")
+            run([FFMPEG, "-y", "-f", "concat", "-safe", "0", "-i", str(lf),
+                 "-c", "copy", str(base)])
+        overlay = ROOT / "overlays" / f"{sid}.png"
+        scene_out = ROOT / "temp" / f"{sid}.mp4"
+        if overlay.exists():
+            run([FFMPEG, "-y", "-i", str(base), "-i", str(overlay),
+                 "-filter_complex", "[0:v][1:v]overlay=0:0:format=auto[v]",
+                 "-map", "[v]", "-an", "-c:v", "libx264", "-preset", "veryfast",
+                 "-crf", "18", "-pix_fmt", "yuv420p", str(scene_out)])
+        else:
+            os.replace(base, scene_out)
+        normalized.append(scene_out)
     list_file = ROOT / "temp" / "list.txt"
     with open(list_file, "w", encoding="utf-8") as f:
         for p in normalized:

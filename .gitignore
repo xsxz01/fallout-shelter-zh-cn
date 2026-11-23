@@ -24,3 +24,4 @@ video_edit/test_plan.json
 !video_edit/assets/*.png
 !video_edit/overlays/*.png
 video_edit/game_assets/
+video_edit/review/

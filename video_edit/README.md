@@ -4,8 +4,8 @@
 
 ```text
 video_edit/
-  raw/            # 你手动录制的 A1–A13（不含 A5、A14）+ narration.wav
-  generated/      # 已生成：A5 AI 蒙太奇、A14 结尾卡
+  raw/            # 8 个手动源文件（A1/A2/A3/A4/A7/A8/A10/A12）+ narration.wav
+  generated/      # 已生成：A5 AI 蒙太奇、A13 结尾卡
   assets/         # 标题卡、结尾卡、封面
   overlays/       # 自动生成的字幕条/下三分之一
   subtitles/      # draft.srt / draft.ass
@@ -68,7 +68,8 @@ $env:FFMPEG="D:\ffmpeg.exe"
 
 ## 说明
 
-- 手动素材 A1–A4、A6–A13 必须存在；A5、A14 自动使用 `generated/`。
+- 手动源文件：A1、A2、A3、A4、A7、A8、A10、A12。
+- A5、A13 自动使用 `generated/`；A6/A7/A11 从 A7 拆分，A9/A12 从 A12 拆分。
 - 脚本会列出真正缺失的文件。
 - 每个片段会统一为 1920×1080 / 60fps / H.264，并叠加 `overlays/A*.png` 的下三分之一文字。
 - `narration.wav` 不存在时输出无声视频；`bgm.mp3` 不存在时只用旁白。
