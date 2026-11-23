@@ -1,0 +1,6 @@
+# Fallout Shelter zh-CN toolchain dependencies
+# Tested with Python 3.14 on Windows.
+UnityPy==1.25.3
+fonttools==4.63.0
+Pillow==12.3.0
+lz4==4.4.5

@@ -17,6 +17,27 @@
 - 一键生成版本化压缩包并发布 GitHub Release
 - 支持备份/还原原版文件
 
+## 环境依赖
+
+- Python **3.10+**（当前使用 3.14，64-bit）
+- 安装 Python 依赖：
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+或双击 `scripts/安装依赖.bat`。
+
+依赖版本固定为：
+
+- `UnityPy==1.25.3`
+- `fonttools==4.63.0`
+- `Pillow==12.3.0`
+- `lz4==4.4.5`
+
+`tkinter` 随 python.org 的 Windows 安装包提供，不需要 pip 安装。
+构建 Win32 安装器还需要 Rust 工具链（`cargo`）；发布 Release 需要 `gh` CLI。
+
 ## Win32 安装器
 
 `src/installer/fs_installer` 是 Rust + `windows-rs` 的纯 Win32 GDI 安装器，
