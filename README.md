@@ -20,15 +20,23 @@
 ## 环境依赖
 
 - Python **3.10+**（当前使用 3.14，64-bit）
-- 安装 Python 依赖：
+- 推荐使用 [uv](https://docs.astral.sh/uv/)；依赖和锁文件见 `pyproject.toml`、`uv.lock`
+
+```bash
+uv sync
+uv run python src/localization_gui.py
+```
+
+也可以继续使用 pip：
 
 ```bash
 python -m pip install -r requirements.txt
+python src/localization_gui.py
 ```
 
-或双击 `scripts/安装依赖.bat`。
+或双击 `scripts/安装依赖.bat`；脚本优先调用 `uv sync`，没有 uv 时回退到 pip。
 
-依赖版本固定为：
+核心依赖固定为：
 
 - `UnityPy==1.25.3`
 - `fonttools==4.63.0`
