@@ -19,42 +19,42 @@
 
 ## Win32 安装器
 
-`installer/fs_installer` 是 Rust + `windows-rs` 的纯 Win32 GDI 安装器，
+`src/installer/fs_installer` 是 Rust + `windows-rs` 的纯 Win32 GDI 安装器，
 用于安装/还原汉化包，界面配色与版式取自游戏标题界面。
 
 ```powershell
-cd installer/fs_installer
+cd src/installer/fs_installer
 cargo build --release
 ```
 
 打包：
 
 ```powershell
-python installer/build_release.py --version 1.1.0
+python src/installer/build_release.py --version 1.1.0
 ```
 
 ### 使用编辑器
 
-双击 `启动编辑器.bat`，或：
+双击 `scripts/启动编辑器.bat`，或：
 
 ```bash
-python localization_gui.py
+python src/localization_gui.py
 ```
 
 编辑器会读取：
 
-- `langsource_orig.json`：从原版提取的词条
-- `translations_cache.json`：机翻缓存
-- `overrides.json`：人工覆盖（优先级最高）
+- `resources/langsource_orig.json`：从原版提取的词条
+- `resources/translations_cache.json`：机翻缓存
+- `config/overrides.json`：人工覆盖（优先级最高）
 
 修改后点“保存修改”，再点“构建补丁”即可重新生成并安装。
 
 ### 命令行构建
 
 ```bash
-python make_font.py      # 从 C:\Windows\Fonts\simhei.ttf 生成精简字体
-python build_patch.py    # 从 data.unity3d.en.bak 构建补丁
-python export_list.py    # 导出 翻译清单.csv
+python src/make_font.py      # 从 C:\Windows\Fonts\simhei.ttf 生成精简字体
+python src/build_patch.py    # 从 data.unity3d.en.bak 构建补丁
+python src/export_list.py    # 导出 resources/翻译清单.csv
 ```
 
 `build_patch.py` 固定从游戏目录的 `data.unity3d.en.bak` 读取原版，避免重复叠加翻译。
@@ -62,28 +62,40 @@ python export_list.py    # 导出 翻译清单.csv
 ### 发布新版本
 
 ```bash
-python package_release.py --version 1.0.0
+python src/package_release.py --version 1.0.0
 ```
 
 会构建补丁、打包 `dist/FalloutShelter_2.7.0_zh-CN_v1.0.0.zip`，
 并通过 `gh release create` 上传到当前仓库的 Release。
 
-## 目录说明
+## 目录结构
+
+| 目录 | 说明 |
+|---|---|
+| `src/` | Python 工具；`src/installer/` 为 Rust 安装器源码与打包脚本 |
+| `scripts/` | 启动编辑器、安装/还原英文的批处理入口 |
+| `config/` | 人工覆盖、花括号映射、版本号、安装器主题 |
+| `resources/` | 原版词条、机翻缓存、字体、翻译清单 |
+| `docs/` | 安装说明、安装器文档、视频脚本 |
+| `changelogs/` | 按版本归档的更新日志 |
+| `build/` | 生成的 `patch_data.unity3d`、构建报告（已忽略） |
+| `dist/` | 发布压缩包（已忽略） |
+
+### 核心脚本
 
 | 文件 | 说明 |
 |---|---|
-| `localization_gui.py` | Tkinter 汉化编辑器 |
-| `loc_core.py` | 词条加载、优先级、CSV 导出 |
-| `translate.py` | Google gtx 批量机翻与占位符保护 |
-| `retry_missing.py` | 补漏翻译 |
-| `overrides.json` | 人工 UI 覆盖（按 Term Key） |
-| `translations_cache.json` | 机翻缓存（按英文原文） |
-| `翻译清单.csv` | 14,073 条完整对照表 |
-| `make_font.py` | 生成 Unity 兼容的 SimHei 子集 |
-| `build_patch.py` | 写回词条、替换字体、生成 data.unity3d |
-| `package_release.py` | 版本打包与 GitHub Release |
-| `verify_patch.py` | 回读校验补丁 |
-| `export_list.py` | 重新导出 CSV |
+| `src/project_paths.py` | 统一的项目/游戏路径常量 |
+| `src/localization_gui.py` | Tkinter 汉化编辑器 |
+| `src/loc_core.py` | 词条加载、优先级、CSV 导出 |
+| `src/translate.py` | Google gtx 批量机翻与占位符保护 |
+| `src/retry_missing.py` | 补漏翻译 |
+| `src/make_font.py` | 生成 Unity 兼容的 SimHei 子集 |
+| `src/build_patch.py` | 写回词条、替换字体、生成 `data.unity3d` |
+| `src/package_release.py` | 版本打包与 GitHub Release |
+| `src/verify_patch.py` | 回读校验补丁 |
+| `src/export_list.py` | 重新导出 CSV |
+| `src/installer/build_release.py` | 构建 Win32 安装器发布包 |
 
 ## 花括号高亮文本
 
